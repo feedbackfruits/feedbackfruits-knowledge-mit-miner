@@ -15,7 +15,12 @@
         "noLib": false,
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": true,
-        "outDir": "lib"
+        "outDir": "lib",
+        "lib": [
+          "dom",
+          "es2017"
+        ]
+
     },
     "filesGlob": [
       "src/**/*.ts"

@@ -1,7 +1,7 @@
 require('dotenv').load({ silent: true });
 
 const {
-  NAME = 'mit',
+  NAME = 'feedbackfruits-knowledge-mit-miner',
   KAFKA_ADDRESS = 'tcp://localhost:9092',
   OUTPUT_TOPIC = 'update_requests',
 
