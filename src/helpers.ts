@@ -54,7 +54,10 @@ export function videoToResource(video: Types.VideoResource, course: Types.Course
       "Resource",
       "Video"
     ],
-    name
+    name,
+    sourceOrganization: [
+      "https://ocw.mit.edu"
+    ]
   };
 
   const topicUrl = `https://ocw.mit.edu/${path}`;
@@ -83,6 +86,9 @@ export function pdfToResource(pdf: Types.PDFResource, course: Types.Course): Doc
     "@type": [
       "Resource",
       "Document"
+    ],
+    sourceOrganization: [
+      "https://ocw.mit.edu"
     ]
   }
 }
