@@ -31,7 +31,8 @@ test('it works', async (t) => {
       }
     });
 
-    await init({
+    // Do not await init here, it will wait for the miner to finish mining before resolving
+    init({
       name: NAME,
     });
 

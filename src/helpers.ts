@@ -1,8 +1,9 @@
+import fetch from './fetch';
+import parseSRT = require('parse-srt');
 import { Doc } from 'feedbackfruits-knowledge-engine';
 import * as Types from './types';
 
-export function departmentToDoc(department: Types.Department, courses: Types.Course[]): Doc {
-  const children = courses.map(course => courseToDoc(course));
+export function departmentToDoc(department: Types.Department, children: string[]): Doc {
   return {
     "@id": department.url,
     "@type": [
@@ -14,24 +15,7 @@ export function departmentToDoc(department: Types.Department, courses: Types.Cou
   }
 }
 
-export function courseToDoc(course: Types.Course): Doc {
-  const videos: Types.VideoResource[] = course.media_resources.map((media_resource) => {
-    const [ name ] = Object.keys(media_resource);
-    const { path, YouTube: { youtube_id } } = media_resource[name];
-    return {
-      name,
-      path,
-      youtube_id
-    };
-  });
-
-  const pdfs: Types.PDFResource[] = Object.entries(course.pdf_list).reduce((memo, [ key, list ]) => {
-    const pdfs = list.map(url => ({ url }));
-    return [ ...memo, ...pdfs ];
-  }, []);
-
-  const children = [ ...pdfs.map(pdf => pdfToResource(pdf, course)), ...videos.map(video => videoToResource(video, course)) ]
-
+export function courseToDoc(course: Types.Course, children: string[]): Doc {
   return {
     "@id": course.url,
     "@type": [
@@ -45,9 +29,49 @@ export function courseToDoc(course: Types.Course): Doc {
   }
 }
 
-export function videoToResource(video: Types.VideoResource, course: Types.Course): Doc {
+
+export async function getCaptionsForVideo(video: Types.VideoResource): Promise<Doc[]> {
+  const { path, youtube_id } = video;
+  const url = `https://ocw.mit.edu/${path}/${youtube_id}.srt`;
+  const response = await fetch(url);
+  if (response.status !== 200) {
+    console.log('No SRT for:', url);
+    return [];
+  }
+
+  const srt = await response.text();
+  let parsed;
+  try {
+    parsed = parseSRT(srt);
+  } catch(e) {
+    console.log('Failed parsing:', url);
+    throw e;
+  }
+
+  const captions = parsed.map(sub => {
+    const { id, start, end, text } = sub;
+    const duration = end - start;
+    const parsedText = text.replace(/<br \/>/, ' ');
+    // console.log('Sub:', id, start, end, text);
+    return {
+      "@id": `${url}#${id}`,
+      "@type": "VideoCaption",
+      startsAfter: `PT${start}S`,
+      duration: `PT${duration}S`,
+      text: parsedText,
+      language: "en"
+    };
+  });
+
+  return captions;
+}
+
+export async function videoToResource(video: Types.VideoResource, course: Types.Course): Promise<Doc> {
   const { name, path, youtube_id } = video;
   const youtubeUrl = `https://www.youtube.com/watch?v=${youtube_id}`;
+  const topicUrl = `https://ocw.mit.edu/${path}`;
+  const captions = await getCaptionsForVideo(video);
+
   const videoDoc = {
     "@id": youtubeUrl,
     "@type": [
@@ -57,10 +81,10 @@ export function videoToResource(video: Types.VideoResource, course: Types.Course
     name,
     sourceOrganization: [
       "https://ocw.mit.edu"
-    ]
+    ],
+    caption: captions
   };
 
-  const topicUrl = `https://ocw.mit.edu/${path}`;
   const topicDoc = {
     "@id": topicUrl,
     "@type": [
