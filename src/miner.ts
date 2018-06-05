@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+import fetch from './fetch';
 import { Observable } from '@reactivex/rxjs';
 import { Quad, Doc, Context } from 'feedbackfruits-knowledge-engine';
 import * as Types from './types';
@@ -11,14 +11,53 @@ export function mine(): Observable<Doc> {
     (async () => {
       try {
         const departments = await getDepartments();
+
         await departments.reduce(async (memo, department) => {
           const { id } = department;
           const courses = await getCoursesForDepartment(id);
-          const departmentDoc = Helpers.departmentToDoc(department, courses);
-          const docs = await Doc.flatten(departmentDoc, Context.context);
-          docs.forEach(doc => observer.next(doc));
+          const courseDocs = await courses.reduce(async (memo, course) => {
+            const videoDocs = await course.media_resources.reduce<Promise<Doc[]>>(async (memo, media_resource) => {
+              const [ name ] = Object.keys(media_resource);
+              const { path, YouTube: { youtube_id } } = media_resource[name];
+
+              const video = {
+                name,
+                path,
+                youtube_id
+              };
+
+              const videoDoc = await Helpers.videoToResource(video, course);
+              observer.next(videoDoc);
+
+              return [ ...(await memo), videoDoc ];
+            }, Promise.resolve<Doc[]>([]));
+
+            const pdfDocs: Doc[] = Object.entries(course.pdf_list).reduce<Types.PDFResource[]>((memo, [ key, list ]) => {
+              const pdfs = list.map(url => ({ url }));
+              return [ ...memo, ...pdfs ];
+            }, []).map(pdf => {
+              const pdfDoc = Helpers.pdfToResource(pdf, course)
+
+              observer.next(pdfDoc);
+
+              return pdfDoc;
+            });
+
+            const children = [ ...pdfDocs, ...videoDocs ].map(doc => doc["@id"]);
+
+            const courseDoc = await Helpers.courseToDoc(course, children);
+            observer.next(courseDoc);
+
+            return [ ...(await memo), courseDoc ];
+          }, Promise.resolve([]));
+
+          const departmentDoc = await Helpers.departmentToDoc(department, courseDocs.map(doc => doc["@id"]));
+          observer.next(departmentDoc);
+          // const docs = await Doc.flatten(departmentDoc, Context.context);
+          // docs.forEach(doc => observer.next(doc));
           return;
         }, Promise.resolve());
+
         observer.complete();
       } catch(e) {
         console.error('Error:', e);

@@ -18,7 +18,7 @@ export default async function init({ name }) {
     docs.subscribe({
       next: (doc) => {
         count++;
-        // console.log('Sending doc:', doc['@id']);
+        console.log(`Sending doc number ${count}:`, doc['@id']);
         return send({ action: 'write', key: doc['@id'], data: doc });
       },
       error: (reason) => {
