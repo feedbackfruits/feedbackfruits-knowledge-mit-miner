@@ -82,6 +82,9 @@ export async function videoToResource(video: Types.VideoResource, course: Types.
     sourceOrganization: [
       "https://ocw.mit.edu"
     ],
+    topic: [
+      topicUrl
+    ],
     caption: captions
   };
 
@@ -97,11 +100,39 @@ export async function videoToResource(video: Types.VideoResource, course: Types.
   return topicDoc;
 }
 
+const typeNames = {
+  'assignments': 'Assignment',
+  'readings': 'Reading',
+  'lecture-notes': 'Lecture notes',
+  'lecture-slides': 'Lecture slides',
+  'exams': 'Exam',
+  'study-materials': 'Study materials',
+  'recitations': 'Recitations',
+  'readings-notes-slides': 'Reading-notes slides',
+  'labs': 'Labs',
+  'syllabus': 'Syllabus',
+  'projects': 'Project',
+  'problem-solving': 'Problem solving',
+  'class-activities': 'Class activity',
+  'experiments': 'Experiment',
+  'related-resources': 'Related resource',
+}
 // Course is passed here to fill out the name and description with something useful
 export function pdfToResource(pdf: Types.PDFResource, course: Types.Course): Doc {
-  const { url } = pdf;
+  const { url, type } = pdf;
+  const regex = /(.*)\/(.*)\.pdf/;
+  const [ , topicUrl, pdfName ] = url.match(regex);
 
   // Do some type specific things here to fill out the name and description
+  let name, description;
+  if (type in typeNames) {
+    console.log('Filling in name and description for:', pdf);
+    const typeName = typeNames[type];
+    name = `${course.title} | ${typeName}: ${pdfName}`;
+    description = `Part of the learning material of ${course.level} level course ${course.title}.`
+  } else {
+    console.log('Unknown type:', pdf);
+  }
 
   // Media annotator will fill out info about pages and preview image
 
@@ -111,8 +142,13 @@ export function pdfToResource(pdf: Types.PDFResource, course: Types.Course): Doc
       "Resource",
       "Document"
     ],
+    ...(name ? { name } : {}),
+    ...(description ? { description } : {}),
     sourceOrganization: [
       "https://ocw.mit.edu"
+    ],
+    topic: [
+      topicUrl
     ]
   }
 }
