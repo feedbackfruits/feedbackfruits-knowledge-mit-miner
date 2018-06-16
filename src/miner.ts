@@ -33,7 +33,7 @@ export function mine(): Observable<Doc> {
             }, Promise.resolve<Doc[]>([]));
 
             const pdfDocs: Doc[] = Object.entries(course.pdf_list).reduce<Types.PDFResource[]>((memo, [ key, list ]) => {
-              const pdfs = list.map(url => ({ url }));
+              const pdfs = list.map(url => ({ url, type: <any>key }));
               return [ ...memo, ...pdfs ];
             }, []).map(pdf => {
               const pdfDoc = Helpers.pdfToResource(pdf, course)
