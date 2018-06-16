@@ -1804,26 +1804,26 @@ fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
-feedbackfruits-knowledge-context@feedbackfruits/feedbackfruits-knowledge-context#^1.1.4:
-  version "1.1.4"
-  resolved "https://codeload.github.com/feedbackfruits/feedbackfruits-knowledge-context/tar.gz/11b3572ca3efa97cd2272c97251218e59d815b91"
+feedbackfruits-knowledge-context@feedbackfruits/feedbackfruits-knowledge-context#^1.1.6:
+  version "1.1.6"
+  resolved "https://codeload.github.com/feedbackfruits/feedbackfruits-knowledge-context/tar.gz/bc23e226f4f9ffe8939d3f59cf0f17c4878d9efb"
   dependencies:
     "@types/node" "^8.0.8"
     recursive-readdir-sync "^1.0.6"
     tslint "^5.5.0"
     typescript "^2.4.1"
 
-"feedbackfruits-knowledge-engine@github:feedbackfruits/feedbackfruits-knowledge-engine#~1.2.0":
-  version "1.2.4"
-  resolved "https://codeload.github.com/feedbackfruits/feedbackfruits-knowledge-engine/tar.gz/28490ffbd237adc8fe8aa61a5870faf180120819"
+"feedbackfruits-knowledge-engine@github:feedbackfruits/feedbackfruits-knowledge-engine#^1.4.0":
+  version "1.4.0"
+  resolved "https://codeload.github.com/feedbackfruits/feedbackfruits-knowledge-engine/tar.gz/91975f14cbad2dd4539049fac976208444270e3e"
   dependencies:
     "@types/n3" "^0.0.3"
     "@types/node" "^8.0.14"
     dotenv "^4.0.0"
-    feedbackfruits-knowledge-context feedbackfruits/feedbackfruits-knowledge-context#^1.1.4
+    feedbackfruits-knowledge-context feedbackfruits/feedbackfruits-knowledge-context#^1.1.6
     isuri "^2.0.3"
     jsonld "^0.5.18"
-    memux "^0.4.2"
+    memux "^0.4.5"
     n3 "^0.11.2"
     rdf-canonize "^0.2.3"
     rdf-nx-parser "^1.0.3"
@@ -3069,7 +3069,7 @@ mem@^1.1.0:
   dependencies:
     mimic-fn "^1.0.0"
 
-memux@^0.4.2:
+memux@^0.4.5:
   version "0.4.5"
   resolved "https://registry.yarnpkg.com/memux/-/memux-0.4.5.tgz#af8547c3480cc61eb0f667cb25d381c79a99a949"
   dependencies:
