@@ -1,6 +1,5 @@
 import fetch from './fetch';
-import parseSRT = require('parse-srt');
-import { Doc } from 'feedbackfruits-knowledge-engine';
+import { Doc, Captions } from 'feedbackfruits-knowledge-engine';
 import * as Types from './types';
 
 export function departmentToDoc(department: Types.Department, children: string[]): Doc {
@@ -30,38 +29,10 @@ export function courseToDoc(course: Types.Course, children: string[]): Doc {
 }
 
 
-export async function getCaptionsForVideo(video: Types.VideoResource): Promise<Doc[]> {
+export async function getCaptionsForVideo(video: Types.VideoResource): Promise<Captions.Caption[]> {
   const { path, youtube_id } = video;
   const url = `https://ocw.mit.edu/${path}/${youtube_id}.srt`;
-  const response = await fetch(url);
-  if (response.status !== 200) {
-    console.log('No SRT for:', url);
-    return [];
-  }
-
-  const srt = await response.text();
-  let parsed;
-  try {
-    parsed = parseSRT(srt);
-  } catch(e) {
-    console.log('Failed parsing:', url);
-    throw e;
-  }
-
-  const captions = parsed.map(sub => {
-    const { id, start, end, text } = sub;
-    const duration = end - start;
-    const parsedText = text.replace(/<br \/>/, ' ');
-    // console.log('Sub:', id, start, end, text);
-    return {
-      "@id": `${url}#${id}`,
-      "@type": "VideoCaption",
-      startsAfter: `PT${start}S`,
-      duration: `PT${duration}S`,
-      text: parsedText,
-      language: "en"
-    };
-  });
+  const captions = await Captions.getCaptions(url);
 
   return captions;
 }
@@ -71,6 +42,8 @@ export async function videoToResource(video: Types.VideoResource, course: Types.
   const youtubeUrl = `https://www.youtube.com/watch?v=${youtube_id}`;
   const topicUrl = `https://ocw.mit.edu/${path}`;
   const captions = await getCaptionsForVideo(video);
+  const metadata = Captions.toMetadata(captions);
+
 
   const videoDoc = {
     "@id": youtubeUrl,
@@ -85,7 +58,9 @@ export async function videoToResource(video: Types.VideoResource, course: Types.
     topic: [
       topicUrl
     ],
-    caption: captions
+    caption: captions,
+    contentDuration: metadata.totalDuration,
+    contentLength: metadata.totalLength,
   };
 
   const topicDoc = {

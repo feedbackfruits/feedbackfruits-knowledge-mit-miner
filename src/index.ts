@@ -16,10 +16,11 @@ export default async function init({ name }) {
   let count = 0;
   await new Promise((resolve, reject) => {
     docs.subscribe({
-      next: (doc) => {
+      next: async (doc) => {
         count++;
         console.log(`Sending doc number ${count}:`, doc['@id']);
-        return send({ action: 'write', key: doc['@id'], data: doc });
+        const result = await send({ action: 'write', key: doc['@id'], data: doc });
+        return result;
       },
       error: (reason) => {
         console.log('Miner crashed...');

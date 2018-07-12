@@ -7,7 +7,7 @@ const {
 
 } = process.env;
 
-const CONCURRENCY = parseInt(process.env.CONCURRENCY) || 100;
+const CONCURRENCY = parseInt(process.env.CONCURRENCY) || 1;
 
 export {
   NAME,
