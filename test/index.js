@@ -8,7 +8,7 @@ test('it exists', t => {
   t.not(init, undefined);
 });
 
-test('it works', async (t) => {
+test.skip('it works', async (t) => {
   try {
     let _resolve, _reject;
     const resultPromise = new Promise((resolve, reject) => {
