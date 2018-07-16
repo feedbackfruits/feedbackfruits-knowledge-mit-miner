@@ -1,230 +1,218 @@
 [
   {
     "id": "chemistry",
-    "url": "https://ocw.mit.edu/courses/chemistry",
+    "title": "Chemistry",
     "image": "https://ocw.mit.edu/courses/chemistry/dhp_5.jpg",
-    "title": "Chemistry"
+    "url": "https://ocw.mit.edu/courses/chemistry"
   },
   {
     "id": "biological-engineering",
-    "url": "https://ocw.mit.edu/courses/biological-engineering",
+    "title": "Biological Engineering",
     "image": "https://ocw.mit.edu/courses/biological-engineering/dhp-20.jpg",
-    "title": "Biological Engineering"
+    "url": "https://ocw.mit.edu/courses/biological-engineering"
   },
   {
     "id": "aeronautics-and-astronautics",
-    "url": "https://ocw.mit.edu/courses/aeronautics-and-astronautics",
+    "title": "Aeronautics and Astronautics",
     "image": "https://ocw.mit.edu/courses/aeronautics-and-astronautics/dhp_16.jpg",
-    "title": "Aeronautics and Astronautics"
+    "url": "https://ocw.mit.edu/courses/aeronautics-and-astronautics"
   },
   {
     "id": "global-studies-and-languages",
-    "url": "https://ocw.mit.edu/courses/global-studies-and-languages",
+    "title": "Global Studies and Languages",
     "image": "https://ocw.mit.edu/courses/global-studies-and-languages/dhp-21f.jpg",
-    "title": "Global Studies and Languages"
+    "url": "https://ocw.mit.edu/courses/global-studies-and-languages"
   },
   {
     "id": "mathematics",
-    "url": "https://ocw.mit.edu/courses/mathematics",
+    "title": "Mathematics",
     "image": "https://ocw.mit.edu/courses/mathematics/dhp_18.jpg",
-    "title": "Mathematics"
+    "url": "https://ocw.mit.edu/courses/mathematics"
   },
   {
     "id": "health-sciences-and-technology",
-    "url": "https://ocw.mit.edu/courses/health-sciences-and-technology",
+    "title": "Health Sciences and Technology",
     "image": "https://ocw.mit.edu/courses/health-sciences-and-technology/dhp-hst.jpg",
-    "title": "Health Sciences and Technology"
+    "url": "https://ocw.mit.edu/courses/health-sciences-and-technology"
   },
   {
     "id": "edgerton-center",
-    "url": "https://ocw.mit.edu/courses/edgerton-center",
+    "title": "Edgerton Center",
     "image": "https://ocw.mit.edu/courses/edgerton-center/Final-image-Dominick-Reuter.jpg",
-    "title": "Edgerton Center"
+    "url": "https://ocw.mit.edu/courses/edgerton-center"
   },
   {
     "id": "womens-and-gender-studies",
-    "url": "https://ocw.mit.edu/courses/womens-and-gender-studies",
+    "title": "Women's and Gender Studies",
     "image": "https://ocw.mit.edu/courses/womens-and-gender-studies/dhp-wgs.jpg",
-    "title": "Women's and Gender Studies"
+    "url": "https://ocw.mit.edu/courses/womens-and-gender-studies"
   },
   {
     "id": "urban-studies-and-planning",
-    "url": "https://ocw.mit.edu/courses/urban-studies-and-planning",
+    "title": "Urban Studies and Planning",
     "image": "https://ocw.mit.edu/courses/urban-studies-and-planning/dhp_11.jpg",
-    "title": "Urban Studies and Planning"
+    "url": "https://ocw.mit.edu/courses/urban-studies-and-planning"
   },
   {
     "id": "sloan-school-of-management",
-    "url": "https://ocw.mit.edu/courses/sloan-school-of-management",
+    "title": "Sloan School of Management",
     "image": "https://ocw.mit.edu/courses/sloan-school-of-management/dhp_15.jpg",
-    "title": "Sloan School of Management"
+    "url": "https://ocw.mit.edu/courses/sloan-school-of-management"
   },
   {
     "id": "anthropology",
-    "url": "https://ocw.mit.edu/courses/anthropology",
+    "title": "Anthropology",
     "image": "https://ocw.mit.edu/courses/anthropology/dhp-21a.jpg",
-    "title": "Anthropology"
+    "url": "https://ocw.mit.edu/courses/anthropology"
   },
   {
     "id": "engineering-systems-division",
-    "url": "https://ocw.mit.edu/courses/engineering-systems-division",
+    "title": "Engineering Systems Division",
     "image": "https://ocw.mit.edu/courses/engineering-systems-division/dhp-esd2.jpg",
-    "title": "Engineering Systems Division"
+    "url": "https://ocw.mit.edu/courses/engineering-systems-division"
   },
   {
     "id": "chemical-engineering",
-    "url": "https://ocw.mit.edu/courses/chemical-engineering",
+    "title": "Chemical Engineering",
     "image": "https://ocw.mit.edu/courses/chemical-engineering/dhp_10.jpg",
-    "title": "Chemical Engineering"
+    "url": "https://ocw.mit.edu/courses/chemical-engineering"
   },
   {
     "id": "earth-atmospheric-and-planetary-sciences",
-    "url": "https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences",
+    "title": "Earth, Atmospheric, and Planetary Sciences",
     "image": "https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/dhp_12.jpg",
-    "title": "Earth, Atmospheric, and Planetary Sciences"
+    "url": "https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences"
   },
   {
     "id": "music-and-theater-arts",
-    "url": "https://ocw.mit.edu/courses/music-and-theater-arts",
+    "title": "Music and Theater Arts",
     "image": "https://ocw.mit.edu/courses/music-and-theater-arts/dhp-21m.jpg",
-    "title": "Music and Theater Arts"
+    "url": "https://ocw.mit.edu/courses/music-and-theater-arts"
   },
   {
     "id": "athletics-physical-education-and-recreation",
-    "url": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation",
+    "title": "Athletics, Physical Education and Recreation",
     "image": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation/dhp-daper.jpg",
-    "title": "Athletics, Physical Education and Recreation"
+    "url": "https://ocw.mit.edu/courses/athletics-physical-education-and-recreation"
   },
   {
     "id": "architecture",
-    "url": "https://ocw.mit.edu/courses/architecture",
+    "title": "Architecture",
     "image": "https://ocw.mit.edu/courses/architecture/dhp_4.jpg",
-    "title": "Architecture"
+    "url": "https://ocw.mit.edu/courses/architecture"
   },
   {
     "id": "experimental-study-group",
-    "url": "https://ocw.mit.edu/courses/experimental-study-group",
+    "title": "Experimental Study Group",
     "image": "https://ocw.mit.edu/courses/experimental-study-group/dhp-esg.jpg",
-    "title": "Experimental Study Group"
+    "url": "https://ocw.mit.edu/courses/experimental-study-group"
   },
   {
     "id": "literature",
-    "url": "https://ocw.mit.edu/courses/literature",
+    "title": "Literature",
     "image": "https://ocw.mit.edu/courses/literature/dhp-21l3.jpg",
-    "title": "Literature"
+    "url": "https://ocw.mit.edu/courses/literature"
   },
   {
     "id": "mechanical-engineering",
-    "url": "https://ocw.mit.edu/courses/mechanical-engineering",
+    "title": "Mechanical Engineering",
     "image": "https://ocw.mit.edu/courses/mechanical-engineering/dhp_2.jpg",
-    "title": "Mechanical Engineering"
+    "url": "https://ocw.mit.edu/courses/mechanical-engineering"
   },
   {
     "id": "electrical-engineering-and-computer-science",
-    "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science",
+    "title": "Electrical Engineering and Computer Science",
     "image": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/dhp_6.jpg",
-    "title": "Electrical Engineering and Computer Science"
+    "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science"
   },
   {
     "id": "materials-science-and-engineering",
-    "url": "https://ocw.mit.edu/courses/materials-science-and-engineering",
+    "title": "Materials Science and Engineering",
     "image": "https://ocw.mit.edu/courses/materials-science-and-engineering/dhp_3.png",
-    "title": "Materials Science and Engineering"
+    "url": "https://ocw.mit.edu/courses/materials-science-and-engineering"
   },
   {
     "id": "history",
-    "url": "https://ocw.mit.edu/courses/history",
+    "title": "History",
     "image": "https://ocw.mit.edu/courses/history/dhp-21h2.jpg",
-    "title": "History"
+    "url": "https://ocw.mit.edu/courses/history"
   },
   {
     "id": "linguistics-and-philosophy",
-    "url": "https://ocw.mit.edu/courses/linguistics-and-philosophy",
+    "title": "Linguistics and Philosophy",
     "image": "https://ocw.mit.edu/courses/linguistics-and-philosophy/dhp-24-2.jpg",
-    "title": "Linguistics and Philosophy"
+    "url": "https://ocw.mit.edu/courses/linguistics-and-philosophy"
   },
   {
     "id": "institute-for-data-systems-and-society",
-    "url": "https://ocw.mit.edu/courses/institute-for-data-systems-and-society",
+    "title": "Institute for Data, Systems, and Society",
     "image": "https://ocw.mit.edu/courses/institute-for-data-systems-and-society/dhp-ids.jpg",
-    "title": "Institute for Data, Systems, and Society"
+    "url": "https://ocw.mit.edu/courses/institute-for-data-systems-and-society"
   },
   {
     "id": "biology",
-    "url": "https://ocw.mit.edu/courses/biology",
+    "title": "Biology",
     "image": "https://ocw.mit.edu/courses/biology/dhp_7.jpg",
-    "title": "Biology"
+    "url": "https://ocw.mit.edu/courses/biology"
   },
   {
     "id": "civil-and-environmental-engineering",
-    "url": "https://ocw.mit.edu/courses/civil-and-environmental-engineering",
+    "title": "Civil and Environmental Engineering",
     "image": "https://ocw.mit.edu/courses/civil-and-environmental-engineering/dhp_1.jpg",
-    "title": "Civil and Environmental Engineering"
-  },
-  {
-    "id": "writing-and-humanistic-studies",
-    "url": "https://ocw.mit.edu/courses/writing-and-humanistic-studies",
-    "image": "https://ocw.mit.edu/courses/writing-and-humanistic-studies/dhp-21w3.jpg",
-    "title": "Writing and Humanistic Studies"
+    "url": "https://ocw.mit.edu/courses/civil-and-environmental-engineering"
   },
   {
     "id": "comparative-media-studies-writing",
-    "url": "https://ocw.mit.edu/courses/comparative-media-studies-writing",
+    "title": "Comparative Media Studies/Writing",
     "image": "https://ocw.mit.edu/courses/comparative-media-studies-writing/dhp_cmsw.png",
-    "title": "Comparative Media Studies/Writing"
+    "url": "https://ocw.mit.edu/courses/comparative-media-studies-writing"
   },
   {
     "id": "nuclear-engineering",
-    "url": "https://ocw.mit.edu/courses/nuclear-engineering",
+    "title": "Nuclear Science and Engineering",
     "image": "https://ocw.mit.edu/courses/nuclear-engineering/course_22_image.jpg",
-    "title": "Nuclear Science and Engineering"
-  },
-  {
-    "id": "comparative-media-studies",
-    "url": "https://ocw.mit.edu/courses/comparative-media-studies",
-    "image": "https://ocw.mit.edu/courses/comparative-media-studies/dhp-cms2.jpg",
-    "title": "Comparative Media Studies"
+    "url": "https://ocw.mit.edu/courses/nuclear-engineering"
   },
   {
     "id": "economics",
-    "url": "https://ocw.mit.edu/courses/economics",
+    "title": "Economics",
     "image": "https://ocw.mit.edu/courses/economics/dhp_14.jpg",
-    "title": "Economics"
+    "url": "https://ocw.mit.edu/courses/economics"
   },
   {
     "id": "concourse",
-    "url": "https://ocw.mit.edu/courses/concourse",
+    "title": "Concourse",
     "image": "https://ocw.mit.edu/courses/concourse/Concourse_Home_2.jpg",
-    "title": "Concourse"
+    "url": "https://ocw.mit.edu/courses/concourse"
   },
   {
     "id": "brain-and-cognitive-sciences",
-    "url": "https://ocw.mit.edu/courses/brain-and-cognitive-sciences",
+    "title": "Brain and Cognitive Sciences",
     "image": "https://ocw.mit.edu/courses/brain-and-cognitive-sciences/dhp_9.jpg",
-    "title": "Brain and Cognitive Sciences"
+    "url": "https://ocw.mit.edu/courses/brain-and-cognitive-sciences"
   },
   {
     "id": "science-technology-and-society",
-    "url": "https://ocw.mit.edu/courses/science-technology-and-society",
+    "title": "Science, Technology, and Society",
     "image": "https://ocw.mit.edu/courses/science-technology-and-society/dhp-sts2.jpg",
-    "title": "Science, Technology, and Society"
+    "url": "https://ocw.mit.edu/courses/science-technology-and-society"
   },
   {
     "id": "political-science",
-    "url": "https://ocw.mit.edu/courses/political-science",
+    "title": "Political Science",
     "image": "https://ocw.mit.edu/courses/political-science/dhp_17.jpg",
-    "title": "Political Science"
+    "url": "https://ocw.mit.edu/courses/political-science"
   },
   {
     "id": "media-arts-and-sciences",
-    "url": "https://ocw.mit.edu/courses/media-arts-and-sciences",
+    "title": "Media Arts and Sciences",
     "image": "https://ocw.mit.edu/courses/media-arts-and-sciences/dhpt-mas.jpg",
-    "title": "Media Arts and Sciences"
+    "url": "https://ocw.mit.edu/courses/media-arts-and-sciences"
   },
   {
     "id": "physics",
-    "url": "https://ocw.mit.edu/courses/physics",
+    "title": "Physics",
     "image": "https://ocw.mit.edu/courses/physics/dhp_8.jpg",
-    "title": "Physics"
+    "url": "https://ocw.mit.edu/courses/physics"
   }
 ]
