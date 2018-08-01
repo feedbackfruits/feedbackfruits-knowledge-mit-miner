@@ -36,7 +36,7 @@ export function fromVideo(video: Types.VideoResource, course: Types.Course, capt
   // const captions = await Captions.getCaptions(captionsUrl);
   let metadata;
   if (captions.length) metadata = Captions.toMetadata(captions);
-
+  const [ captionsUrl ] = captions[0]["@id"].split("#");
 
   const videoDoc = {
     "@id": youtubeUrl,
@@ -52,7 +52,7 @@ export function fromVideo(video: Types.VideoResource, course: Types.Course, capt
       topicUrl
     ],
     ...(captions.length ? {
-      caption: captions,
+      caption: [ captionsUrl ],
       contentDuration: metadata.totalDuration,
       contentLength: metadata.totalLength,
     } : {}),
