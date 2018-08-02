@@ -42,7 +42,7 @@
     "@reactivex/rxjs": "^5.4.3",
     "@types/node": "^8.0.24",
     "dotenv": "^4.0.0",
-    "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#^1.4.1",
+    "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#^1.4.4",
     "jsonld": "^0.4.11",
     "memux": "github:knowledge-express/memux#~0.4.2",
     "node-fetch": "^1.6.3",

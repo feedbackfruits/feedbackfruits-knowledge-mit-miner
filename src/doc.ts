@@ -94,11 +94,10 @@ export function fromPDF(pdf: Types.PDFResource, course: Types.Course): Doc {
   const [ , topicUrl, pdfName ] = url.match(regex);
 
   // Do some type specific things here to fill out the name and description
-  let name, description;
+  let description;
   if (type in typeNames) {
-    console.log('Filling in name and description for:', pdf);
+    console.log('Filling in description for:', pdf);
     const typeName = typeNames[type];
-    name = `${course.title} | ${typeName}: ${pdfName}`;
     description = `Part of the learning material of ${course.level} level course ${course.title}.`
   } else {
     console.log('Unknown type:', pdf);
@@ -112,7 +111,6 @@ export function fromPDF(pdf: Types.PDFResource, course: Types.Course): Doc {
       "Resource",
       "Document"
     ],
-    ...(name ? { name } : {}),
     ...(description ? { description } : {}),
     sourceOrganization: [
       "https://ocw.mit.edu"
