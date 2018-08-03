@@ -34,9 +34,11 @@ export function fromVideo(video: Types.VideoResource, course: Types.Course, capt
 
   // const captionsUrl = `https://ocw.mit.edu/${path}/${youtube_id}.srt`;
   // const captions = await Captions.getCaptions(captionsUrl);
-  let metadata;
-  if (captions.length) metadata = Captions.toMetadata(captions);
-  const [ captionsUrl ] = captions[0]["@id"].split("#");
+  let metadata, captionsUrl;
+  if (captions.length) {
+    metadata = Captions.toMetadata(captions);
+    captionsUrl = captions[0]["@id"].split("#")[0];
+  }
 
   const videoDoc = {
     "@id": youtubeUrl,
