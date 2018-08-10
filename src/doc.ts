@@ -117,8 +117,12 @@ export function fromPDF(pdf: Types.PDFResource, course: Types.Course): Doc {
     sourceOrganization: [
       "https://ocw.mit.edu"
     ],
-    topic: [
-      topicUrl
-    ]
+    topic:  {
+      "@id": topicUrl,
+      "@type": [
+        "Topic"
+      ],
+      child: [ url ],
+    }
   }
 }
