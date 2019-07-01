@@ -41,6 +41,7 @@
   "dependencies": {
     "@reactivex/rxjs": "^5.4.3",
     "@types/node": "^8.0.24",
+    "aws-sdk": "^2.481.0",
     "dotenv": "^4.0.0",
     "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#^1.4.4",
     "jsonld": "^0.4.11",
@@ -48,6 +49,7 @@
     "node-fetch": "^1.6.3",
     "p-queue": "^1.0.0",
     "parse-srt": "^1.0.0-alpha",
+    "striptags": "^3.1.1",
     "typescript": "^2.4.2"
   },
   "devDependencies": {
