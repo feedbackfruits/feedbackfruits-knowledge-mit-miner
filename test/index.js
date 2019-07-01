@@ -4,8 +4,6 @@ import memux from 'memux';
 import init from '../lib';
 import { NAME, KAFKA_ADDRESS, OUTPUT_TOPIC, INPUT_TOPIC, PAGE_SIZE, START_PAGE } from '../lib/config';
 
-import * as Support from './support';
-
 test('it exists', t => {
   t.not(init, undefined);
 });

@@ -1,134 +1,139 @@
-import fetch from './fetch';
-import { Observable } from '@reactivex/rxjs';
+require('dotenv').load({ silent: true });
+
+import fetch from 'node-fetch';
+import { S3 } from 'aws-sdk';
+import PQueue = require('p-queue');
+import * as striptags from 'striptags';
+import { Observable, Observer } from '@reactivex/rxjs';
+
 import { Doc, Captions } from 'feedbackfruits-knowledge-engine';
-import * as Types from './types';
-// import * as Helpers from './helpers';
-import * as MIT from './mit';
-import * as _Doc from './doc';
-//
-// import * as Types from './types';
-//
-export function mine(): Observable<Doc> {
-  return MIT.getDepartments()
-    .concatMap(department => {
-      const courseDocs = MIT.getCoursesForDepartment(department.id)
-        .concatMap(course => {
-          const videoDocs = Observable.from(course.media_resources)
-            .concatMap(media_resource => {
-              const [ name ] = Object.keys(media_resource);
-              const { path, YouTube: { youtube_id } } = media_resource[name];
-              const video = {
-                name,
-                path,
-                youtube_id
-              };
 
-              return Observable.defer(async () => {
-                const captionsUrl = `https://ocw.mit.edu/${path}/${youtube_id}.srt`;
-                let captions = [];
-                try {
-                  captions = await Captions.getCaptions(captionsUrl);
-                } catch(e) {
-                  try {
-                    console.error(`Skipped error on captions url ${captionsUrl}, retrying without underscores...`);
-                    captions = await Captions.getCaptions(captionsUrl.replace(/\_/g, ''));
-                  } catch(e) {
-                    console.error(`Skipped error on captions url ${captionsUrl}.`);
-                    console.error(e);
-                  }
-                }
-                const videoDoc = _Doc.fromVideo(video, course, captions);
-                return videoDoc;
-              })
-            });
+const { S3_ACCESS_KEY_ID, S3_SECRET_ACCESS_KEY, S3_BUCKET } = process.env;
+const s3 = new S3({ accessKeyId: S3_ACCESS_KEY_ID, secretAccessKey: S3_SECRET_ACCESS_KEY });
+const s3Queue = new PQueue({ concurrency: 100 });
+const mitQueue = new PQueue({ concurrency: 2 });
 
-          const pdfs = Object.entries(course.pdf_list).reduce<Types.PDFResource[]>((memo, [ key, list ]) => {
-            const pdfs = list.map(url => ({ url, type: <any>key }));
-            return [ ...memo, ...pdfs ];
-          }, []);
-
-          const pdfDocs = Observable.from(pdfs)
-            .concatMap(pdf => {
-              const pdfDoc = _Doc.fromPDF(pdf, course)
-              return Observable.from([ pdfDoc ]);
-            });
-
-          const courseDoc = _Doc.fromCourse(course, []);
-          return Observable.concat(videoDocs, pdfDocs, Observable.from([ courseDoc ]));
-        })
-
-
-      const departmentDoc = _Doc.fromDepartment(department, []);
-      return Observable.concat(courseDocs, Observable.from([ departmentDoc ]));
+const getCourseIds = (count = Infinity, marker: string = null): Observable<string> => {
+  return Observable.create(async (observer: Observer<string>) => {
+    const results = await new Promise<Array<string>>((resolve, reject) => {
+      s3.listObjects({ Bucket: S3_BUCKET, Delimiter: '/', Marker: marker, MaxKeys: Math.min(count, 1000) }, (err, data) => {
+        if (err) reject(err);
+        resolve(data.CommonPrefixes.map(c => c.Prefix));
+      });
     });
-  // const departments = Observable
-  //   .fromPromise(getDepartments())
-  //   .flatMap(departments => Observable.from(departments))
-  //   .concatMap(department => {
-  //     const { id } = department;
-  //     const courses = Observable.fromPromise(getCoursesForDepartment(id)).concatMap(course => {
-  //       return Observable.concat(Observable.from([ courseDoc ]));
-  //     });
-  //
-  //     const departmentDoc = Helpers.departmentToDoc(department, courseDocs.map(doc => doc["@id"]));
-  //     return Observable.concat(courses, Observable.from([ departmentDoc ]));
-  //   });
 
-  // return new Observable<Doc>(observer => {
-  //   (async () => {
-  //     try {
-  //
-  //       await departments.reduce(async (memo, department) => {
-  //         const { id } = department;
-  //         const courses = await getCoursesForDepartment(id);
-  //         const courseDocs = await courses.reduce(async (memo, course) => {
-  //           const videoDocs = await course.media_resources.reduce<Promise<Doc[]>>(async (memo, media_resource) => {
-  //             const [ name ] = Object.keys(media_resource);
-  //             const { path, YouTube: { youtube_id } } = media_resource[name];
-  //
-  //             const video = {
-  //               name,
-  //               path,
-  //               youtube_id
-  //             };
-  //
-  //             const videoDoc = await Helpers.videoToResource(video, course);
-  //             observer.next(videoDoc);
-  //
-  //             return [ ...(await memo), videoDoc ];
-  //           }, Promise.resolve<Doc[]>([]));
-  //
-  //           const pdfDocs: Doc[] = Object.entries(course.pdf_list).reduce<Types.PDFResource[]>((memo, [ key, list ]) => {
-  //             const pdfs = list.map(url => ({ url, type: <any>key }));
-  //             return [ ...memo, ...pdfs ];
-  //           }, []).map(pdf => {
-  //             const pdfDoc = Helpers.pdfToResource(pdf, course)
-  //
-  //             observer.next(pdfDoc);
-  //
-  //             return pdfDoc;
-  //           });
-  //
-  //           const children = [ ...pdfDocs, ...videoDocs ].map(doc => doc["@id"]);
-  //
-  //           const courseDoc = await Helpers.courseToDoc(course, children);
-  //           observer.next(courseDoc);
-  //
-  //           return [ ...(await memo), courseDoc ];
-  //         }, Promise.resolve([]));
-  //
-  //         const departmentDoc = await Helpers.departmentToDoc(department, courseDocs.map(doc => doc["@id"]));
-  //         observer.next(departmentDoc);
-  //         // const docs = await Doc.flatten(departmentDoc, Context.context);
-  //         // docs.forEach(doc => observer.next(doc));
-  //         return;
-  //       }, Promise.resolve());
-  //
-  //       observer.complete();
-  //     } catch(e) {
-  //       console.error('Error:', e);
-  //       observer.error(e);
-  //     }
-  //   })()
-  // });
-}
+    results.slice(0, Math.min(count, results.length)).forEach(result => observer.next(result));
+    getCourseIds(count - results.length, results[results.length - 1]).subscribe(observer);
+  });
+};
+
+const getCourseInfo = async (courseId: string): Promise<object> => {
+  const key = await new Promise<string>((resolve, reject) => {
+    s3.listObjects({ Bucket: S3_BUCKET, Prefix: courseId }, (err, data) => {
+      if (err) reject(err);
+      resolve(data.Contents.find(object => object.Key.endsWith('_master.json')).Key);
+    });
+  });
+
+  const info = await new Promise((resolve, reject) => {
+    s3.getObject({ Bucket: S3_BUCKET, Key: key }, (err, data) => {
+      if (err) reject(err);
+      resolve(JSON.parse(data.Body.toString()));
+    });
+  });
+
+  return info;
+};
+
+const makeCourseDocs = async (courseInfo: object): Promise<Array<object>> => {
+  const courseUrl = 'https://ocw.mit.edu' + courseInfo['url'];
+
+  if ((await mitQueue.add(() => fetch(courseUrl, { method: 'HEAD' }))).status == 404) return [];
+
+  const departmentUrl = courseUrl.match(/(.*)\/.*$/)[1];
+  const courseName = courseInfo['title'];
+  const courseDescription = striptags(courseInfo['description']);
+
+  const documents = courseInfo['course_files'].filter(fileInfo => fileInfo['file_type'] === 'application/pdf' && fileInfo['file_location'] != null).map(fileInfo => {
+    const fileName = fileInfo['title'];
+    const fileDescription = fileInfo['description'];
+    const fileUrl = fileInfo['file_location'];
+
+    return {
+      "@id": fileUrl,
+      "@type": [
+        "Resource",
+        "Document"
+      ],
+      name: fileName,
+      description: fileDescription,
+      sourceOrganization: [
+        "https://ocw.mit.edu"
+      ],
+      topic: courseUrl
+    };
+  });
+
+  const videos = await Promise.all(Object.values(courseInfo['course_embedded_media']).filter(mediaInfo => mediaInfo['embedded_media'].some(sourceInfo => sourceInfo['id'] === 'Video-YouTube-Stream')).map(async mediaInfo => {
+    const mediaName = mediaInfo['title'];
+    const youtubeSource = mediaInfo['embedded_media'].find(sourceInfo => sourceInfo['id'] === 'Video-YouTube-Stream');
+    const youtubeId = youtubeSource['media_info']
+    const youtubeUrl = 'http://youtube.com/watch?v=' + youtubeSource['media_info'];
+    const captionSource = mediaInfo['embedded_media'].find(sourceInfo => sourceInfo['id'] === youtubeId + '.srt');
+
+    let captions = [], metadata, captionsUrl;
+
+    if (captionSource) {
+      captionsUrl = captionSource['technical_location'];
+      captions = await mitQueue.add(() => Captions.getCaptions(captionsUrl));
+      metadata = Captions.toMetadata(captions);
+    }
+
+    return {
+      "@id": youtubeUrl,
+      "@type": [
+        "Resource",
+        "Video"
+      ],
+      name: mediaName,
+      sourceOrganization: [
+        "https://ocw.mit.edu"
+      ],
+      topic: courseUrl,
+      ...(captions.length ? {
+        caption: [ captionsUrl ],
+        contentDuration: metadata.totalDuration,
+        contentLength: metadata.totalLength,
+      } : {})
+    };
+  }));
+
+  const courseDoc = {
+    "@id": courseUrl,
+    "@type": [
+      "Topic",
+      "Resource"
+    ],
+    name: courseName,
+    description: courseDescription,
+    parent: {
+      "@id": departmentUrl,
+      "@type": [
+        "Topic"
+      ],
+      child: [
+        courseUrl
+      ]
+    },
+    child: [ ...documents, ...videos ]
+  };
+
+  return [courseDoc];
+};
+
+export const mine = (): Observable<object> => {
+  return getCourseIds()
+    .flatMap(getCourseInfo)
+    .flatMap(makeCourseDocs)
+    .flatMap(docs => docs)
+};
