@@ -41,7 +41,9 @@ jobs:
       - store_artifacts:
           path: coverage
   deploy-branch:
-    <<: *defaults
+    working_directory: ~/feedbackfruits-knowledge-mit-miner
+    machine:
+      enabled: true
     steps:
       - checkout
       - run:
@@ -60,7 +62,9 @@ jobs:
             heroku ps:scale web=0 -a staging-fbf-knowledge-mit-mine
             heroku run:detached yarn start -a staging-fbf-knowledge-mit-mine
   deploy-tag:
-    <<: *defaults
+    working_directory: ~/feedbackfruits-knowledge-mit-miner
+    machine:
+      enabled: true
     steps:
       - checkout
       - run:
