@@ -60,7 +60,7 @@ jobs:
             heroku config:add GIT_TAG=`git describe --tags --always` --app staging-fbf-knowledge-mit-mine
             git push git@heroku.com:staging-fbf-knowledge-mit-mine.git $CIRCLE_SHA1:refs/heads/master -f
             heroku ps:scale web=0 -a staging-fbf-knowledge-mit-mine
-            heroku run:detached yarn start -a staging-fbf-knowledge-mit-mine
+            heroku run:detached --size=standard-2x yarn start -a staging-fbf-knowledge-mit-mine
   deploy-tag:
     working_directory: ~/feedbackfruits-knowledge-mit-miner
     machine:
@@ -81,7 +81,7 @@ jobs:
             heroku config:add GIT_TAG=`git describe --tags --always` --app fbf-knowledge-mit-miner
             git push git@heroku.com:fbf-knowledge-mit-miner.git $CIRCLE_SHA1:refs/heads/master -f
             heroku ps:scale web=0 -a fbf-knowledge-mit-miner
-            heroku run:detached yarn start -a fbf-knowledge-mit-miner
+            heroku run:detached --size=standard-2x yarn start -a fbf-knowledge-mit-miner
 
 workflows:
   version: 2
