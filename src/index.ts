@@ -7,7 +7,7 @@ import { Miner, Helpers, Config as _Config } from 'feedbackfruits-knowledge-engi
 export default async function init({ name }) {
   const send = await Miner({
     name,
-    customConfig: Config as typeof _Config.Base
+    customConfig: Config as any as typeof _Config.Base
   });
 
   console.log('Starting MIT miner...');

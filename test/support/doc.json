@@ -1,0 +1,33 @@
+{
+  "@id": "https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/exams/MIT18_06S10_exam1_s10_sol.pdf",
+  "@type": [
+    "Resource",
+    "Document"
+  ],
+  "name": "MIT18_06S10_exam1_s10_sol.pdf",
+  "description": "This resource contains solutions related to elimination changes.",
+  "keywords": [
+    "matrix theory",
+    "linear algebra",
+    "systems of equations",
+    "vector spaces",
+    "determinants",
+    "eigenvalues",
+    "similarity",
+    "positive definite matrices",
+    "least-squares approximations",
+    "stability of differential equations",
+    "networks",
+    "Fourier transforms",
+    "Markov processes"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "learningResourceType": "exams",
+  "inLanguage": "en-US",
+  "dateCreated": "2010-03-01T00:00:00.000Z",
+  "educationalLevel": "Undergraduate",
+  "sourceOrganization": [
+    "https://ocw.mit.edu"
+  ],
+  "topic": "https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010"
+}

@@ -1,0 +1,388 @@
+{
+  "term": "Spring",
+  "course_title": "Linear Algebra",
+  "description": "<p>This is a basic subject on matrix theory and linear algebra. Emphasis is given to topics that will be useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, similarity, and positive definite matrices.</p>",
+  "level": "Undergraduate",
+  "course_section_and_tlp_urls": [
+    "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/syllabus",
+    "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/calendar",
+    "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/readings",
+    "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/assignments",
+    "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/exams",
+    "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/study-materials",
+    "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/tools",
+    "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/related-resources",
+    "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures"
+  ],
+  "faculty": [
+    "Prof. Gilbert Strang"
+  ],
+  "course_path": "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010",
+  "course_topics": [
+    {
+      "topic": "Mathematics",
+      "speciality": "",
+      "subtopic": "Linear Algebra"
+    }
+  ],
+  "course_image_path": "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/18-06s10.jpg",
+  "pdf_list": {
+    "related-resources": [
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/related-resources/MIT18_06S10_gramschmidtmat.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/related-resources/MIT18_06S10_matlab.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/related-resources/MIT18_06S10_symmbases.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/related-resources/MIT18_06S10_pascal_work.pdf"
+    ],
+    "assignments": [
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/assignments/MIT18_06S10_pset1_s10_soln.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/assignments/MIT18_06S10_pset2_s10_soln.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/assignments/MIT18_06S10_pset3_s10_soln.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/assignments/MIT18_06S10_pset4_s10_soln.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/assignments/MIT18_06S10_pset5_s10_soln.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/assignments/MIT18_06S10_pset6_s10_soln.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/assignments/MIT18_06S10_pset7_s10_soln.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/assignments/MIT18_06S10_pset8_s10_soln.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/assignments/MIT18_06S10_pset9_s10_soln.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/assignments/MIT18_06S10_pset10_s10_sol.pdf"
+    ],
+    "exams": [
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/exams/MIT18_06S10_exam1_s10.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/exams/MIT18_06S10_exam1_s10_sol.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/exams/MIT18_06S10_exam2_s10.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/exams/MIT18_06S10_exam2_s10_soln.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/exams/MIT18_06S10_exam3_s10.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/exams/MIT18_06S10_exam3_s10_soln.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/exams/MIT18_06S10_Final_Answers.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/exams/MIT18_06S10_Final_Exam.pdf"
+    ],
+    "video-lectures": [
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L01.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L02.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L03.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L04.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L05.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L06.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L07.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L08.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L09.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L10.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L11.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L12.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L13.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L14.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L15.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L16.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L17.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L18.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L19.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L20.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L21.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L22.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L23.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L24b.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L24.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L25.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L26.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L27.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L28.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L29.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L30.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L31.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L32.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L33.pdf",
+      "https://ocw-origin.odl.mit.educourses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/MIT18_06S10_L34.pdf"
+    ]
+  },
+  "master_course_number": "18.06",
+  "year": "2010",
+  "media_resources": [
+    {
+      "An Interview with Gilbert Strang on Teaching Linear Algebra": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/instructor-insights/an-interview-with-gilbert-strang-on-teaching-linear-algebra",
+        "YouTube": {
+          "youtube_id": "7UJ4CFRGd-U"
+        }
+      }
+    },
+    {
+      "Lecture 1: The geometry of linear equations": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-1-the-geometry-of-linear-equations",
+        "YouTube": {
+          "youtube_id": "ZK3O402wf1c"
+        }
+      }
+    },
+    {
+      "Lecture 2: Elimination with matrices": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-2-elimination-with-matrices",
+        "YouTube": {
+          "youtube_id": "QVKj3LADCnA"
+        }
+      }
+    },
+    {
+      "Lecture 3: Multiplication and inverse matrices": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-3-multiplication-and-inverse-matrices",
+        "YouTube": {
+          "youtube_id": "FX4C-JpTFgY"
+        }
+      }
+    },
+    {
+      "Lecture 4: Factorization into A = LU": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-4-factorization-into-a-lu",
+        "YouTube": {
+          "youtube_id": "MsIvs_6vC38"
+        }
+      }
+    },
+    {
+      "Lecture 5: Transposes, permutations, spaces R^n": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-5-transposes-permutations-spaces-r-n",
+        "YouTube": {
+          "youtube_id": "JibVXBElKL0"
+        }
+      }
+    },
+    {
+      "Lecture 6: Column space and nullspace": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-6-column-space-and-nullspace",
+        "YouTube": {
+          "youtube_id": "8o5Cmfpeo6g"
+        }
+      }
+    },
+    {
+      "Lecture 7: Solving Ax = 0: pivot variables, special solutions": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-7-solving-ax-0-pivot-variables-special-solutions",
+        "YouTube": {
+          "youtube_id": "VqP2tREMvt0"
+        }
+      }
+    },
+    {
+      "Lecture 8: Solving Ax = b: row reduced form R": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-8-solving-ax-b-row-reduced-form-r",
+        "YouTube": {
+          "youtube_id": "9Q1q7s1jTzU"
+        }
+      }
+    },
+    {
+      "Lecture 9: Independence, basis, and dimension": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-9-independence-basis-and-dimension",
+        "YouTube": {
+          "youtube_id": "yjBerM5jWsc"
+        }
+      }
+    },
+    {
+      "Lecture 10: The four fundamental subspaces": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-10-the-four-fundamental-subspaces",
+        "YouTube": {
+          "youtube_id": "nHlE7EgJFds"
+        }
+      }
+    },
+    {
+      "Lecture 11: Matrix spaces; rank 1; small world graphs": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-11-matrix-spaces-rank-1-small-world-graphs",
+        "YouTube": {
+          "youtube_id": "2IdtqGM6KWU"
+        }
+      }
+    },
+    {
+      "Lecture 12: Graphs, networks, incidence matrices": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-12-graphs-networks-incidence-matrices",
+        "YouTube": {
+          "youtube_id": "6-wh6yvk6uc"
+        }
+      }
+    },
+    {
+      "Lecture 13: Quiz 1 review": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-13-quiz-1-review",
+        "YouTube": {
+          "youtube_id": "l88D4r74gtM"
+        }
+      }
+    },
+    {
+      "Lecture 14: Orthogonal vectors and subspaces": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-14-orthogonal-vectors-and-subspaces",
+        "YouTube": {
+          "youtube_id": "YzZUIYRCE38"
+        }
+      }
+    },
+    {
+      "Lecture 15: Projections onto subspaces": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-15-projections-onto-subspaces",
+        "YouTube": {
+          "youtube_id": "Y_Ac6KiQ1t0"
+        }
+      }
+    },
+    {
+      "Lecture 16: Projection matrices and least squares": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-16-projection-matrices-and-least-squares",
+        "YouTube": {
+          "youtube_id": "osh80YCg_GM"
+        }
+      }
+    },
+    {
+      "Lecture 17: Orthogonal matrices and Gram-Schmidt": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-17-orthogonal-matrices-and-gram-schmidt",
+        "YouTube": {
+          "youtube_id": "uNsCkP9mgRk"
+        }
+      }
+    },
+    {
+      "Lecture 18: Properties of determinants": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-18-properties-of-determinants",
+        "YouTube": {
+          "youtube_id": "srxexLishgY"
+        }
+      }
+    },
+    {
+      "Lecture 19: Determinant formulas and cofactors": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-19-determinant-formulas-and-cofactors",
+        "YouTube": {
+          "youtube_id": "23LLB9mNJvc"
+        }
+      }
+    },
+    {
+      "Lecture 20: Cramer's rule, inverse matrix, and volume": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-20-cramers-rule-inverse-matrix-and-volume",
+        "YouTube": {
+          "youtube_id": "QNpj-gOXW9M"
+        }
+      }
+    },
+    {
+      "Lecture 21: Eigenvalues and eigenvectors": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-21-eigenvalues-and-eigenvectors",
+        "YouTube": {
+          "youtube_id": "lXNXrLcoerU"
+        }
+      }
+    },
+    {
+      "Lecture 22: Diagonalization and powers of A": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-22-diagonalization-and-powers-of-a",
+        "YouTube": {
+          "youtube_id": "13r9QY6cmjc"
+        }
+      }
+    },
+    {
+      "Lecture 23: Differential equations and exp(At)": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-23-differential-equations-and-exp-at",
+        "YouTube": {
+          "youtube_id": "IZqwi0wJovM"
+        }
+      }
+    },
+    {
+      "Lecture 24: Markov matrices; fourier series": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-24-markov-matrices-fourier-series",
+        "YouTube": {
+          "youtube_id": "8MF3pz-oYHo"
+        }
+      }
+    },
+    {
+      "Lecture 24b: Quiz 2 review": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-24b-quiz-2-review",
+        "YouTube": {
+          "youtube_id": "sFxA8eIS6tA"
+        }
+      }
+    },
+    {
+      "Lecture 25: Symmetric matrices and positive definiteness": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-25-symmetric-matrices-and-positive-definiteness",
+        "YouTube": {
+          "youtube_id": "umt6BB1nJ4w"
+        }
+      }
+    },
+    {
+      "Lecture 26: Complex matrices; fast fourier transform": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-26-complex-matrices-fast-fourier-transform",
+        "YouTube": {
+          "youtube_id": "M0Sa8fLOajA"
+        }
+      }
+    },
+    {
+      "Lecture 27: Positive definite matrices and minima": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-27-positive-definite-matrices-and-minima",
+        "YouTube": {
+          "youtube_id": "vF7eyJ2g3kU"
+        }
+      }
+    },
+    {
+      "Lecture 28: Similar matrices and jordan form": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-28-similar-matrices-and-jordan-form",
+        "YouTube": {
+          "youtube_id": "z_zYQHmrh08"
+        }
+      }
+    },
+    {
+      "Lecture 29: Singular value decomposition": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-29-singular-value-decomposition",
+        "YouTube": {
+          "youtube_id": "Nx0lRBaXoz4"
+        }
+      }
+    },
+    {
+      "Lecture 30: Linear transformations and their matrices": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-30-linear-transformations-and-their-matrices",
+        "YouTube": {
+          "youtube_id": "Ts3o2I8_Mxc"
+        }
+      }
+    },
+    {
+      "Lecture 31: Change of basis; image compression": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-31-change-of-basis-image-compression",
+        "YouTube": {
+          "youtube_id": "vGkn-3NFGck"
+        }
+      }
+    },
+    {
+      "Lecture 32: Quiz 3 review": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-32-quiz-3-review",
+        "YouTube": {
+          "youtube_id": "HgC1l_6ySkc"
+        }
+      }
+    },
+    {
+      "Lecture 33: Left and right inverses; pseudoinverse": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-33-left-and-right-inverses-pseudoinverse",
+        "YouTube": {
+          "youtube_id": "Go2aLo7ZOlU"
+        }
+      }
+    },
+    {
+      "Lecture 34: Final course review": {
+        "path": "courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-34-final-course-review",
+        "YouTube": {
+          "youtube_id": "RWvi4Vx4CDc"
+        }
+      }
+    }
+  ]
+}
