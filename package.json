@@ -16,52 +16,25 @@
     "coverage": "codecov",
     "watch": "nodemon lib"
   },
-  "nyc": {},
-  "ava": {
-    "files": [
-      "test/**/*.js",
-      "!test/support/**/*.js"
-    ],
-    "source": [
-      "src/**/*.ts"
-    ],
-    "match": [],
-    "concurrency": 5,
-    "failFast": true,
-    "failWithoutAssertions": false,
-    "tap": false,
-    "powerAssert": false,
-    "require": [
-      "babel-register"
-    ],
-    "babel": "inherit"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@reactivex/rxjs": "^5.4.3",
-    "@types/node": "^8.0.24",
-    "aws-sdk": "^2.481.0",
-    "dotenv": "^4.0.0",
-    "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#^1.4.4",
-    "jsonld": "^0.4.11",
-    "memux": "github:knowledge-express/memux#~0.4.2",
-    "node-fetch": "^1.6.3",
-    "p-queue": "^1.0.0",
-    "parse-srt": "^1.0.0-alpha",
+    "aws-sdk": "^2.504.0",
+    "dotenv": "^8.0.0",
+    "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#^1.4.5",
+    "memux": "^0.4.5",
+    "node-fetch": "^2.6.0",
+    "p-queue": "^6.1.0",
+    "rxjs": "^6.5.2",
     "striptags": "^3.1.1",
-    "typescript": "^2.4.2"
+    "typescript": "^3.5.3"
   },
   "devDependencies": {
-    "ava": "^0.25.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-es2017": "^6.24.1",
-    "blue-tape": "^0.2.0",
-    "codecov": "^1.0.1",
-    "nodemon": "^1.11.0",
-    "nyc": "^11.1.0",
-    "supertest": "^3.0.0",
-    "tap": "^5.7.0"
+    "ava": "^2.2.0",
+    "codecov": "^3.5.0",
+    "mock-aws-s3": "github:feedbackfruits/mock-aws-s3#master",
+    "nodemon": "^1.19.1",
+    "nyc": "^14.1.1",
+    "proxyquire": "^2.1.1"
   }
 }
