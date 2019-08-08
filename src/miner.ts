@@ -70,7 +70,7 @@ const makeCourseDocs = async (courseInfo: object): Promise<Array<object>> => {
     };
   }, {});
 
-  const documents = courseInfo['course_files'].filter(fileInfo => fileInfo['file_type'] === 'application/pdf' && fileInfo['title'] != '3play pdf file' && fileInfo['title'].indexOf(' ') == -1).map(fileInfo => {
+  const documents = courseInfo['course_files'].filter(fileInfo => fileInfo['file_type'] === 'application/pdf' && fileInfo['title'] != '3play pdf file' && fileInfo['title'].indexOf(' ') == -1 && fileInfo['parent_uid'] in coursePagesIndex).map(fileInfo => {
     return Doc.fileToDoc(fileInfo, courseInfo, coursePagesIndex);
   });
 
