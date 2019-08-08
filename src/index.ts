@@ -19,8 +19,13 @@ export default async function init({ name }) {
       next: async (doc) => {
         count++;
         console.log(`Sending doc number ${count}:`, doc['@id']);
-        const result = await send({ action: 'write', key: doc['@id'], data: doc });
-        return result;
+        try {
+          const result = await send({ action: 'write', key: doc['@id'], data: doc });
+          return result;
+        } catch(e) {
+          console.log('Miner crashed...');
+          reject(e);
+        }
       },
       error: (reason) => {
         console.log('Miner crashed...');
