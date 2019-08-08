@@ -5,6 +5,10 @@ export declare const seasonMap: {
     "Winter": string;
 };
 export declare function fileToDoc(fileInfo: any, courseInfo: any, coursePageIndex: any): {
+    educationalLevel: any;
+    sourceOrganization: string[];
+    topic: string;
+    dateCreated: string;
     "@id": string;
     "@type": string[];
     name: any;
@@ -13,36 +17,69 @@ export declare function fileToDoc(fileInfo: any, courseInfo: any, coursePageInde
     license: string;
     learningResourceType: any;
     inLanguage: any;
-    dateCreated: string;
+} | {
     educationalLevel: any;
     sourceOrganization: string[];
     topic: string;
+    "@id": string;
+    "@type": string[];
+    name: any;
+    description: any;
+    keywords: any;
+    license: string;
+    learningResourceType: any;
+    inLanguage: any;
 };
 export declare function videoToDoc(mediaInfo: any, captions: any, captionsUrl: any, courseInfo: any, coursePageIndex: any): {
     caption: any[];
     contentDuration: any;
     contentLength: any;
+    educationalLevel: any;
+    license: string;
+    sourceOrganization: string[];
+    topic: string;
+    dateCreated: string;
     "@id": string;
     "@type": string[];
     name: any;
     keywords: any;
     learningResourceType: any;
     inLanguage: any;
-    dateCreated: string;
-    educationalLevel: any;
-    license: string;
-    sourceOrganization: string[];
-    topic: string;
 } | {
+    educationalLevel: any;
+    license: string;
+    sourceOrganization: string[];
+    topic: string;
+    dateCreated: string;
     "@id": string;
     "@type": string[];
     name: any;
     keywords: any;
     learningResourceType: any;
     inLanguage: any;
-    dateCreated: string;
+} | {
+    caption: any[];
+    contentDuration: any;
+    contentLength: any;
     educationalLevel: any;
     license: string;
     sourceOrganization: string[];
     topic: string;
+    "@id": string;
+    "@type": string[];
+    name: any;
+    keywords: any;
+    learningResourceType: any;
+    inLanguage: any;
+} | {
+    educationalLevel: any;
+    license: string;
+    sourceOrganization: string[];
+    topic: string;
+    "@id": string;
+    "@type": string[];
+    name: any;
+    keywords: any;
+    learningResourceType: any;
+    inLanguage: any;
 };

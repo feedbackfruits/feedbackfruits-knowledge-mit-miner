@@ -25,7 +25,12 @@ export function fileToDoc(fileInfo, courseInfo, coursePageIndex) {
   const courseStartSemester = courseInfo["from_semester"];
 
   const dateString = `${courseStartYear}-${seasonMap[courseStartSemester]}`;
-  const courseStartDate = (new Date(dateString)).toISOString();
+  let courseStartDate: string;
+  try {
+    courseStartDate = (new Date(dateString)).toISOString();
+  } catch(e) {
+
+  }
 
   const fileName = fileInfo['title'];
   const fileDescription = fileInfo['description'];
@@ -48,7 +53,7 @@ export function fileToDoc(fileInfo, courseInfo, coursePageIndex) {
     license: mitLicense,
     learningResourceType: learningResourceType,
     inLanguage: courseLanguage,
-    dateCreated: courseStartDate,
+    ...(courseStartDate != null ? { dateCreated: courseStartDate } : {}),
     educationalLevel: courseLevel,
     sourceOrganization: [
       "https://ocw.mit.edu"
@@ -69,7 +74,12 @@ export function videoToDoc(mediaInfo, captions, captionsUrl, courseInfo, courseP
   const courseStartSemester = courseInfo["from_semester"];
 
   const dateString = `${courseStartYear}-${seasonMap[courseStartSemester]}`;
-  const courseStartDate = (new Date(dateString)).toISOString();
+  let courseStartDate: string;
+  try {
+    courseStartDate = (new Date(dateString)).toISOString();
+  } catch(e) {
+
+  }
 
   const mediaName = mediaInfo['title'];
   const youtubeSource = mediaInfo['embedded_media'].find(sourceInfo => sourceInfo['id'] === 'Video-YouTube-Stream');
@@ -91,7 +101,7 @@ export function videoToDoc(mediaInfo, captions, captionsUrl, courseInfo, courseP
     keywords: courseKeywords,
     learningResourceType: learningResourceType,
     inLanguage: courseLanguage,
-    dateCreated: courseStartDate,
+    ...(courseStartDate != null ? { dateCreated: courseStartDate } : {}),
     educationalLevel: courseLevel,
     license: mitLicense,
     sourceOrganization: [
