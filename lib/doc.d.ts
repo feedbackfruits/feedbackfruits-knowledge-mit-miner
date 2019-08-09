@@ -9,7 +9,7 @@ export declare function fileToDoc(fileInfo: any, courseInfo: any, coursePageInde
     sourceOrganization: string[];
     topic: string;
     dateCreated: string;
-    "@id": string;
+    "@id": any;
     "@type": string[];
     name: any;
     description: any;
@@ -21,7 +21,7 @@ export declare function fileToDoc(fileInfo: any, courseInfo: any, coursePageInde
     educationalLevel: any;
     sourceOrganization: string[];
     topic: string;
-    "@id": string;
+    "@id": any;
     "@type": string[];
     name: any;
     description: any;
