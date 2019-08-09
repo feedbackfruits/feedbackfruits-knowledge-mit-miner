@@ -1,0 +1,671 @@
+{
+  "uid": "1d932ff61b3bc48988de1780971e96d0",
+  "url": "/courses/civil-and-environmental-engineering/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008",
+  "tags": [
+    {
+      "name": "1.201"
+    },
+    {
+      "name": "1.201J"
+    },
+    {
+      "name": "11.545"
+    },
+    {
+      "name": "11.545J"
+    },
+    {
+      "name": "ESD.210"
+    },
+    {
+      "name": "ESD.210J"
+    },
+    {
+      "name": "transportation"
+    },
+    {
+      "name": "travel demand"
+    },
+    {
+      "name": "organizational models"
+    },
+    {
+      "name": "consumer theory"
+    },
+    {
+      "name": "project finance"
+    },
+    {
+      "name": "intelligent transportation systems"
+    },
+    {
+      "name": "project evaluation"
+    },
+    {
+      "name": "demand modelling"
+    },
+    {
+      "name": "technology"
+    },
+    {
+      "name": "environmental"
+    },
+    {
+      "name": "energy"
+    },
+    {
+      "name": "economic development"
+    },
+    {
+      "name": "sustainability"
+    },
+    {
+      "name": "urban structure"
+    },
+    {
+      "name": "land use"
+    },
+    {
+      "name": "equity"
+    },
+    {
+      "name": "transportation components"
+    },
+    {
+      "name": "intermodal combinations"
+    },
+    {
+      "name": "quantitative modeling"
+    },
+    {
+      "name": "strategic regional planning"
+    },
+    {
+      "name": "institutional change analysis"
+    },
+    {
+      "name": "large-scale systems"
+    }
+  ],
+  "title": "Transportation Systems Analysis: Demand and Economics",
+  "sort_as": "1.201",
+  "to_year": "-1",
+  "language": "en-US",
+  "from_year": "2008",
+  "image_src": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/0c62366c41d2af0b8e1ec4b9dc3748d7_1-201jf08.jpg",
+  "short_url": "1-201j-transportation-systems-analysis-demand-and-economics-fall-2008",
+  "description": "\n<p>The main objective of this course is to give broad insight into the different facets of transportation systems, while providing a solid introduction to transportation demand and cost analyses. As part of the core in the Master of Science in Transportation program, the course will not focus on a specific transportation mode but will use the various modes to apply the theoretical and analytical concepts presented in the lectures and readings.</p>\n<p>Introduces transportation systems analysis, stressing demand and economic aspects. Covers the key principles governing transportation planning, investment, operations and maintenance. Introduces the microeconomic concepts central to transportation systems. Topics covered include economic theories of the firm, the consumer, and the market, demand models, discrete choice analysis, cost models and production functions, and pricing theory. Application to transportation systems include congestion pricing, technological change, resource allocation, market structure and regulation, revenue forecasting, public and private transportation finance, and project evaluation; covering urban passenger transportation, freight, aviation and intelligent transportation systems.</p>",
+  "instructors": [
+    {
+      "uid": "0e8c35a6c131408f19ff0eaae8ab3913",
+      "title": "Frumin, Michael",
+      "mit_id": "",
+      "suffix": "",
+      "last_name": "Frumin",
+      "department": "",
+      "first_name": "Michael",
+      "middle_initial": "",
+      "directory_title": ""
+    },
+    {
+      "uid": "8f6ecc2fb76d126adf900cfdd47ba63a",
+      "title": "Ben-Akiva, Moshe",
+      "mit_id": "900004631",
+      "suffix": "",
+      "last_name": "Ben-Akiva",
+      "department": "Civil and Environmental Engineering",
+      "first_name": "Moshe",
+      "middle_initial": "",
+      "directory_title": "Professor"
+    }
+  ],
+  "to_semester": "-1",
+  "course_files": [
+    {
+      "uid": "0c62366c41d2af0b8e1ec4b9dc3748d7",
+      "title": "Passengers boarding a subway in Madrid",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "image/jpeg",
+      "parent_uid": "1d932ff61b3bc48988de1780971e96d0",
+      "description": "This course discusses urban transportation issues, such as the importance of passenger waiting time. (Image by caravinagre on Flickr.)",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/0c62366c41d2af0b8e1ec4b9dc3748d7_1-201jf08.jpg",
+      "platform_requirements": "Any number of image viewers/editors can be used to display these .jpg image files, including most html browsers."
+    },
+    {
+      "uid": "53ff1622c95cb74b9a8965aae40c1fd5",
+      "title": "The \"Developing\" World? Urban Passenger Mobility",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on developing country urban mobility and the sustainable development imperative.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/53ff1622c95cb74b9a8965aae40c1fd5_MIT1_201JF08_lec24.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "1f95d3f5478db83751911b5617967db4",
+      "title": "Pricing of Transportation Services: Theory and Practice II",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on transportation services, public sector pricing in practice, congestion pricing, pricing vehicle emissions, public transportation, private sector pricing in theory and in practice, and examples of congestion pricing.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/1f95d3f5478db83751911b5617967db4_MIT1_201JF08_lec13.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "7c29839f902550fa6800c37f31943bec",
+      "title": "Freight Demand",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on freight demand, volumes, types, econometric indicators, freight demand modeling, framework, logistics choice, trends, extensions, activity systems, and model system.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/7c29839f902550fa6800c37f31943bec_MIT1_201JF08_lec06.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "246ff23f8bd157759243b3fc55c631f0",
+      "title": "Intelligent Transportation Systems (ITS) and the Impact of Traveler Information & Emerging Themes in Transportation Economics and Policy",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on intelligent transportation systems, the impact of traveler information, and emerging themes in transportation economics and policy.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/246ff23f8bd157759243b3fc55c631f0_MIT1_201JF08_lec26.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "afc26475c9b2e882dd28af69353a22b0",
+      "title": "Transport Project Finance — 3: Additional Topics in Project Finance",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on transport project finance, regulation of transportation industries, the effects of subordination, and innovative financing methods.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/afc26475c9b2e882dd28af69353a22b0_MIT1_201JF08_lec21.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "a73e9a7cb5edbbd0d0b955ca172c0856",
+      "title": "Travel Demand Modeling",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on travel demand modeling.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/a73e9a7cb5edbbd0d0b955ca172c0856_MIT1_201JF08_lec05.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "cde9ee13763469fdce84edc34d217868",
+      "title": "Transportation Project Finance — 1: Public Finance: Taxes and Bonds",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on project finance, the principles of taxation, and the transportation finance system in the United States.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/cde9ee13763469fdce84edc34d217868_MIT1_201JF08_lec19.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "1fe5a6531216e44dbe94543535a1ddd3",
+      "title": "Discrete Choice Analysis II",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on model specification and estimation, aggregation and forecasting, independence from irrelevant alternatives (IIA) property, nested logit, and advanced choice models.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/1fe5a6531216e44dbe94543535a1ddd3_MIT1_201JF08_lec04.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "0fc64f08e8343d2c4b0f2c27bc13690d",
+      "title": "Airline Revenue Management: Flight Leg and Network Optimization",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on airline revenue management, airline pricing, and flight leg and network optimization.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/0fc64f08e8343d2c4b0f2c27bc13690d_MIT1_201JF08_lec17.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "811d2e2f5bb724df2e3e46ff0c2da6b8",
+      "title": "Transportation Costs",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on transportation costs, long-run versus short-run costs, economies of scale, scope and density, and methods for estimating costs.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/811d2e2f5bb724df2e3e46ff0c2da6b8_MIT1_201JF08_lec10.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "f85bad821869fc927af7c2c078f78c01",
+      "title": "Theory of the Firm",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on the theory of the firm, basic concepts, production functions, profit maximization and cost minimization, and average and marginal costs.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/f85bad821869fc927af7c2c078f78c01_MIT1_201JF08_lec09.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "0da5d80892d0497c15107f296bfa3a75",
+      "title": "Introduction to Transportation Demand Analysis and Overview of Consumer Theory",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on transportation demand analysis, choices, complexity, sample statistics, the roles of demand models, and an overview of consumer theory.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/0da5d80892d0497c15107f296bfa3a75_MIT1_201JF08_lec02.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "e7bd11d71c997467d994e11e0e7081a6",
+      "title": "Pricing of Transportation Services: Theory and Practice I",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on pricing of transportation services, cost and demand concepts, public sector pricing in theory, issues with marginal cost pricing, and congestion pricing in theory.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/e7bd11d71c997467d994e11e0e7081a6_MIT1_201JF08_lec12.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "c5ad55d9fbbac5fefca9cf035d9a47a2",
+      "title": "Public Transport Introduction and Organizational Models: The Roles of the Public and Private Sectors",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on public transport, organizational models, the roles of the public and private sectors, current U.S. status and recent trends, significant influences, a critical assessment, arguments supporting public transport, organizational models, the US transit industry, and the UK bus industry experience.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/c5ad55d9fbbac5fefca9cf035d9a47a2_MIT1_201JF08_lec07.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "a23d95b1e9f7973f03fe6da9f7493fe5",
+      "title": "ransportation Project Finance — 2 Public-Private Partnerships",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on transportation project finance, and public-private partnerships (PPPs).",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/a23d95b1e9f7973f03fe6da9f7493fe5_MIT1_201JF08_lec20.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "5cb4b68ba2862c05be088455242112f4",
+      "title": "Assessing the Transfer Penalty: A GIS-based Disaggregate Modeling Approach",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on transfer penalty, a GIS-based disaggregate modeling approach.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/5cb4b68ba2862c05be088455242112f4_MIT1_201JF08_lec08.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "9eadd4cccfa491680a5c5bb4233f78ab",
+      "title": "Discrete Choice Analysis I",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on discrete choice analysis, the random utility model, specification and estimation, forecasting, IIA property, and nested logit.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/9eadd4cccfa491680a5c5bb4233f78ab_MIT1_201JF08_lec03.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "12e51b7ca0fb18891c74d21d5f7b475f",
+      "title": "An Introduction",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture notes introducing transportation system analysis, microeconomics, travel demand, and course structure.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/12e51b7ca0fb18891c74d21d5f7b475f_MIT1_201JF08_lec01.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "973ee77cd644ca7685647313cf892e2d",
+      "title": "Airline Revenue Management: Impacts of Fare Simplification on RM Systems",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on airline revenue management and the impacts of fare simplification on RM systems.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/973ee77cd644ca7685647313cf892e2d_MIT1_201JF08_lec18.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "f4fa5794738819bdbc0ae42508120f21",
+      "title": "Transportation Revenue Forecasting: Theory and Models",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on transportation revenue forecasting, pricing/tolling strategy, travel demand forecasting, and traffic assignment.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/f4fa5794738819bdbc0ae42508120f21_MIT1_201JF08_lec16.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "6062840fe01898c55f7ae9ffc7759aa1",
+      "title": "Project Evaluation and Programming I",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on project evaluation, investment planning, and programming.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/6062840fe01898c55f7ae9ffc7759aa1_1.201_f08_lecture22.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "04a48a5b9358e4429602c65b26b60a0d",
+      "title": "Project Evaluation and Programming II",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "94c094b7b01d868ef11282cef13859cc",
+      "description": "Lecture presentation on investment planning and programming.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/04a48a5b9358e4429602c65b26b60a0d_1.201_f08_lec23.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "abbd17c15ff53ba0f81910b66afd6522",
+      "title": "Homework 5: Worksheet",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/msword",
+      "parent_uid": "9fcb7d0d8cfef1b02f1d7a69f645464a",
+      "description": "Worksheet for a problem set on estimating uncertainty in a revenue forecast.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/abbd17c15ff53ba0f81910b66afd6522_hw_5.xls",
+      "platform_requirements": "Microsoft Excel software is recommended for viewing this .xls file."
+    },
+    {
+      "uid": "1e8c891662e8ad3942e773db1e2f4eba",
+      "title": "Assignment 4",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "9fcb7d0d8cfef1b02f1d7a69f645464a",
+      "description": "Problem set on pricing a trucking service, the use of pricing to control flow on urban expressways, and airline revenue management.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/1e8c891662e8ad3942e773db1e2f4eba_MIT1_201JF08_hw_4.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "32a3224d398faa84cfa7564042be9a3d",
+      "title": "Assignment 5",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "9fcb7d0d8cfef1b02f1d7a69f645464a",
+      "description": "Problem set on estimating uncertainty in a revenue forecast.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/32a3224d398faa84cfa7564042be9a3d_MIT1_201JF08_hw_5.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "39821eb3270ba800d6ef4ce81cf8d5f1",
+      "title": "Assignment 2",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "9fcb7d0d8cfef1b02f1d7a69f645464a",
+      "description": "Problem set on elasticities and consumer surplus, using the Logit model, and using the four\u00ad step travel demand model.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/39821eb3270ba800d6ef4ce81cf8d5f1_MIT1_201JF08_hw_2.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "275a107cdaf86cfd6b3d59f3534e094a",
+      "title": "Assignment 1",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "9fcb7d0d8cfef1b02f1d7a69f645464a",
+      "description": "Problem set on multi\u00admodal transportation systems analysis and financing transit through road pricing.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/275a107cdaf86cfd6b3d59f3534e094a_MIT1_201JF08_hw_1.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "ac17cea8e12cae7dc70adb967e73b108",
+      "title": "Assignment 3",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "9fcb7d0d8cfef1b02f1d7a69f645464a",
+      "description": "Problem set on cost complementarities and vertical integration in US railroads, and an urban travel choice model with transit service attributes.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/ac17cea8e12cae7dc70adb967e73b108_MIT1_201JF08_hw_3.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "b9e57716c8c766dc2ccc0f76e2fefc1a",
+      "title": "Transport Demand and Pricing Module",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "d07e7cf7851bfa90969467a43405b492",
+      "description": "Practice problems on transport demand and pricing.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/b9e57716c8c766dc2ccc0f76e2fefc1a_MIT1_201JF08_pricing_prob.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "75f5aad063e2a28e118804b9aee48034",
+      "title": "Midterm Exam",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "d07e7cf7851bfa90969467a43405b492",
+      "description": "Midterm exam on transportation systems analysis.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/75f5aad063e2a28e118804b9aee48034_MIT1_201JF08_midterm.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "08be108a6f0362fa3ef5409203c1956f",
+      "title": "Final Exam",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "d07e7cf7851bfa90969467a43405b492",
+      "description": "Final exam on transportation systems analysis.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/08be108a6f0362fa3ef5409203c1956f_MIT1_201JF08_final.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "b234e9a9f28f9f114e4a2df9ccf04722",
+      "title": "Final Exam",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "application/pdf",
+      "parent_uid": "d07e7cf7851bfa90969467a43405b492",
+      "description": "Final exam on transportation systems analysis.",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/b234e9a9f28f9f114e4a2df9ccf04722_MIT1_201JF08_final07.pdf",
+      "platform_requirements": "Adobe Reader software is required to view this .pdf file."
+    },
+    {
+      "uid": "6d7b103f7ee8600b369f8b7ed69c1519",
+      "title": "Passengers boarding a subway in Madrid",
+      "credit": null,
+      "caption": null,
+      "alt_text": null,
+      "file_type": "image/jpeg",
+      "parent_uid": "1d932ff61b3bc48988de1780971e96d0",
+      "description": "This course discusses urban transportation issues, such as the importance of passenger waiting time. (Image by caravinagre on Flickr.)",
+      "file_location": "https://open-learning-course-data-rc.s3.amazonaws.com/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/6d7b103f7ee8600b369f8b7ed69c1519_1-201jf08-th.jpg",
+      "platform_requirements": "Any number of image viewers/editors can be used to display these .jpg image files, including most html browsers."
+    }
+  ],
+  "course_level": "Graduate",
+  "course_owner": "J_chuang",
+  "course_pages": [
+    {
+      "uid": "4bb2e8f1277b108211e3471c42e948f3",
+      "url": "/courses/civil-and-environmental-engineering/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/syllabus",
+      "text": "<h2 class=\"subhead\">Course Meeting Times</h2> <p>Lectures: 2 sessions / week, 1.5 hours / session</p> <p>Recitations: 1 session / week, 1 hour / session</p> <h2 class=\"subhead\">Description and Objectives</h2> <p>Introduces transportation systems analysis, stressing demand and economic aspects. Covers the key principles governing transportation planning, investment, operations and maintenance. Introduces the microeconomic concepts central to transportation systems. Topics covered include economic theories of the firm, the consumer, and the market, demand models, discrete choice analysis, cost models and production functions, and pricing theory. Application to transportation systems include congestion pricing, technological change, resource allocation, market structure and regulation, revenue forecasting, public and private transportation finance, and project evaluation; covering urban passenger transportation, freight, aviation and intelligent transportation systems.</p> <p>The main objective of this course is to give broad insight into the different facets of transportation systems, while providing a solid introduction to transportation demand and cost analyses. As part of the core in the Master of Science in Transportation program, the course will not focus on a specific transportation mode but will use the various modes to apply the theoretical and analytical concepts presented in the lectures and readings.</p> <h2 class=\"subhead\">Course Requirements</h2> <ol> <li>Readings: will be assigned from three textbooks and a variety of articles and papers. Additional readings may also be assigned over the semester.</li> <li>Problem sets: five problem sets will be assigned over the semester.</li> <li>Midterm exam: an in-class midterm exam is scheduled in Lec #11.</li> <li>Final exam: a three-hour exam will be scheduled during exam period.</li> </ol> <h2 class=\"subhead\">Grading</h2> <div class=\"maintabletemplate\"><table class=\"tablewidth50\" summary=\"See table caption for summary.\"> <caption class=\"invisible\">Grading criteria.</caption> <thead> <tr> <th scope=\"col\">ACTIVITIES</th> <th scope=\"col\">PERCENTAGES</th> </tr> </thead> <tbody> <tr class=\"row\"> <td>Problem sets</td> <td>60%</td> </tr> <tr class=\"alt-row\"> <td>Midterm</td> <td>10%</td> </tr> <tr class=\"row\"> <td>Final exam</td> <td>30%</td> </tr> </tbody> </table></div> <p>&nbsp;</p><h2 class=\"subhead\">Readings</h2> <p>The course draws on three primary textbooks, listed in the readings section. We have also provided a list of additional readings, some required and some recommended. Further readings may be assigned over the semester.</p> <h2 class=\"subhead\">Policy on Academic Honesty</h2> <p>The Department of Civil and Environmental Engineering adheres to the strictest standards of academic honesty. An important aspect of achieving these standards is to be sure that students are aware of expectations of faculty as regards academic honesty.</p> <h3 class=\"subsubhead\">Assignments</h3> <p>Assignments performed by students for submission have a dual purpose. They are intended as educational devices, including the teaching of skills such as working in teams. They are also evaluation tools for the faculty in judging the quality of performance of individual students. Our policies are intended to balance these two purposes and, unless otherwise stated, these policies apply to all assignments.</p> <p>Students currently taking this class can work together to conceptualize general approaches to assignments. However, unless otherwise specified for a particular assignment, the work you submit should be done completely on your own. This includes text, numerical calculations, mathematical derivations, diagrams, graphs, computer programs and output. Reference any written source you use in your submission, including Web sites.</p> <p>It is inappropriate to use assignments submitted in previous years as a source.</p> <h3 class=\"subsubhead\">In-Class Exams</h3> <p>All work on in-class exams should be performed only by you. All exams are open book and open note.</p> <p>If you have any questions about how these policies relate to a specific situation, you should speak to Prof. Ben-Akiva for clarification.</p>",
+      "type": "CourseSection",
+      "title": "Syllabus",
+      "short_url": "syllabus",
+      "parent_uid": "1d932ff61b3bc48988de1780971e96d0",
+      "description": "This syllabus section provides the course description and objectives, and information on meeting times, requirements, grading, readings, and the policy on academic honesty."
+    },
+    {
+      "uid": "54903c0ac436795e6e69f4d5ac7ff701",
+      "url": "/courses/civil-and-environmental-engineering/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/calendar",
+      "text": "<div class=\"maintabletemplate\"><table class=\"tablewidth75\" summary=\"See table caption for summary.\"> <caption class=\"invisible\">Course calendar.</caption> <thead> <tr> <th scope=\"col\">LEC&nbsp;#</th> <th scope=\"col\">TOPICS</th> <th scope=\"col\">KEY&nbsp;DATES</th> </tr> </thead> <tbody> <tr class=\"row\"> <td colspan=\"3\"><strong>Introduction</strong></td> </tr> <tr class=\"alt-row\"> <td>1</td> <td>Introduction</td> <td>&nbsp;</td> </tr> <tr class=\"row\"> <td colspan=\"3\"><strong>Demand</strong></td> </tr> <tr class=\"alt-row\"> <td>2</td> <td>Overview of consumer theory</td> <td>Assignment 1 out</td> </tr> <tr class=\"row\"> <td>3</td> <td>Discrete choice analysis I</td> <td>&nbsp;</td> </tr> <tr class=\"alt-row\"> <td>4</td> <td>Discrete choice analysis II</td> <td>&nbsp;</td> </tr> <tr class=\"row\"> <td>5</td> <td>Travel demand modeling</td> <td>&nbsp;</td> </tr> <tr class=\"alt-row\"> <td>6</td> <td>Freight demand</td> <td><p>Assignment 1 due</p> <p>Assignment 2 out</p></td> </tr> <tr class=\"row\"> <td colspan=\"3\"><strong>Public transportation</strong></td> </tr> <tr class=\"alt-row\"> <td>7</td> <td>Organizational models</td> <td>&nbsp;</td> </tr> <tr class=\"row\"> <td>8</td> <td>Path choice models</td> <td>&nbsp;</td> </tr> <tr class=\"alt-row\"> <td colspan=\"3\"><strong>The firm and its costs</strong></td> </tr> <tr class=\"row\"> <td>9</td> <td>Theory of the firm</td> <td>&nbsp;</td> </tr> <tr class=\"alt-row\"> <td>10</td> <td>Transportation costs</td> <td><p>Assignment 2 due</p> <p>Assignment 3 out</p></td> </tr> <tr class=\"row\"> <td>11</td> <td>Midterm exam</td> <td>&nbsp;</td> </tr> <tr class=\"alt-row\"> <td colspan=\"3\"><strong>Pricing</strong></td> </tr> <tr class=\"row\"> <td>12</td> <td>Pricing of transportation services: theory and practice I</td> <td>&nbsp;</td> </tr> <tr class=\"alt-row\"> <td>13</td> <td>Pricing of transportation services: theory and practice II</td> <td>&nbsp;</td> </tr> <tr class=\"row\"> <td colspan=\"3\"><strong>The maritime and port sector</strong></td> </tr> <tr class=\"alt-row\"> <td>14</td> <td><p>Analysis of the maritime and port sector I and II</p> <p>Guest lectures: Hilde Meersman and Eddy Van de Voorde, Department of Transport and Regional Economics, University of Antwerp</p></td> <td>&nbsp;</td> </tr> <tr class=\"row\"> <td>15</td> <td><p>Analysis of the maritime and port sector I and II</p> <p>Guest lectures: Hilde Meersman and Eddy Van de Voorde, Department of Transport and Regional Economics, University of Antwerp</p></td> <td><p>Assignment 3 due</p> <p>Assignment 4 out</p></td> </tr> <tr class=\"alt-row\"> <td colspan=\"3\"><strong>Revenue forecasting and management</strong></td> </tr> <tr class=\"row\"> <td>16</td> <td>Transportation revenue forecasting: theory and models</td> <td>&nbsp;</td> </tr> <tr class=\"alt-row\"> <td>17</td> <td><p>Airline revenue management I: flight leg and network models</p> <p>Guest lecture: Peter Belobaba, MIT International Center for Air Transportation (MIT ICAT)</p></td> <td>&nbsp;</td> </tr> <tr class=\"row\"> <td>18</td> <td><p>Airline revenue management II: impact of fare simplification on revenue management (RM) models</p> <p>Guest lecture: Peter Belobaba, MIT ICAT</p></td> <td>&nbsp;</td> </tr> <tr class=\"alt-row\"> <td colspan=\"3\"><strong>Finance, regulation, and competition</strong></td> </tr> <tr class=\"row\"> <td>19</td> <td><p>Project finance I</p> <p>Guest lecture: Jon Bottom, Steer Davies Gleave</p></td> <td>&nbsp;</td> </tr> <tr class=\"alt-row\"> <td>20</td> <td><p>Project finance II</p> <p>Guest lecture: Jon Bottom, Steer Davies Gleave</p></td> <td><p>Assignment 4 due</p> <p>Assignment 5 out</p></td> </tr> <tr class=\"row\"> <td>21</td> <td><p>Project finance III</p> <p>Regulation of transportation industries</p> <p>Guest lectures: Jon Bottom, Steer Davies Gleave</p></td> <td>&nbsp;</td> </tr> <tr class=\"alt-row\"> <td colspan=\"3\"><strong>Project evaluation and programming</strong></td> </tr> <tr class=\"row\"> <td>22</td> <td><p>Project evaluation and programming I</p> <p>Guest lecture: Lance Neumann, Cambridge Systematics, Inc.</p></td> <td>&nbsp;</td> </tr> <tr class=\"alt-row\"> <td>23</td> <td><p>Project evaluation and programming II</p> <p>Guest lecture: Lance Neumann, Cambridge Systematics, Inc.</p></td> <td>&nbsp;</td> </tr> <tr class=\"row\"> <td colspan=\"3\"><strong>Developing countries</strong></td> </tr> <tr class=\"alt-row\"> <td>24</td> <td><p>Developing country urban mobility: the sustainable development imperative</p> <p>Guest lecture: Chris Zegras, MIT Department of Urban Studies and Planning</p></td> <td>&nbsp;</td> </tr> <tr class=\"row\"> <td>25</td> <td>Mobility demand in developing countries: some examples</td> <td>Assignment 5 due</td> </tr> <tr class=\"alt-row\"> <td colspan=\"3\"><strong>Intelligent transportation systems, conclusion</strong></td> </tr> <tr class=\"row\"> <td>26</td> <td>Intelligent transportation systems and the impact of traveler information; emerging themes in transportation economics and policy</td> <td>&nbsp;</td> </tr> </tbody> </table></div>",
+      "type": "CourseSection",
+      "title": "Calendar",
+      "short_url": "calendar",
+      "parent_uid": "1d932ff61b3bc48988de1780971e96d0",
+      "description": "This calendar section provides the schedule of lecture topics and assignment due dates for the course."
+    },
+    {
+      "uid": "306bf4e073941c59852a235dc8dd97d7",
+      "url": "/courses/civil-and-environmental-engineering/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/readings",
+      "text": "<p>The course draws on three primary textbooks, which are listed in the table below with the following abbreviations:</p> <p><a href=\"http://www.amazon.com/exec/obidos/ASIN/0415285151/ref=nosim/mitopencourse-20\"><img border=\"0\" align=\"absMiddle\" src=\"/images/a_logo_17.gif\" alt=\"Buy at Amazon\" /></a> [S] = Small, Kenneth, and Erik T. Verhoef. <em>The Economics of Urban Transportation</em>. New York, NY: Routledge, 2007. ISBN: 9780415285155.</p> <p><a href=\"http://www.amazon.com/exec/obidos/ASIN/0815731817/ref=nosim/mitopencourse-20\"><img border=\"0\" align=\"absMiddle\" src=\"/images/a_logo_17.gif\" alt=\"Buy at Amazon\" /></a> [M] = Gomez-Ibanez, Jose, William B. Tye, and Clifford Winston, eds. <em>Essays in Transportation Economics and Policy: A Handbook in Honor of John R. Meyer</em>. Washington, DC: Brookings Institution Press, 1999. ISBN: 9780815731818.</p> <p><a href=\"http://www.amazon.com/exec/obidos/ASIN/0387758569/ref=nosim/mitopencourse-20\"><img border=\"0\" align=\"absMiddle\" src=\"/images/a_logo_17.gif\" alt=\"Buy at Amazon\" /></a> [C] = Cascetta, Ennio. <em>Transportation Systems Analysis: Models and Applications</em>. 2nd ed. New York, NY: Springer, forthcoming in 2009. ISBN: 9780387758565.</p> <div class=\"maintabletemplate\"><table summary=\"See table caption for summary.\" class=\"tablewidth\">     <caption class=\"invisible\">Course readings.</caption>     <thead>         <tr>             <th scope=\"col\">LEC&nbsp;#</th>             <th scope=\"col\">TOPICS</th>             <th scope=\"col\">READINGS</th>             <th scope=\"col\">OPTIONAL&nbsp;READINGS</th>         </tr>     </thead>     <tbody>         <tr class=\"row\">             <td colspan=\"4\"><strong>Introduction</strong></td>         </tr>         <tr class=\"alt-row\">             <td>1</td>             <td>Introduction</td>             <td>[S] Chapter 1</td>             <td>&nbsp;</td>         </tr>         <tr class=\"row\">             <td colspan=\"4\"><strong>Demand</strong></td>         </tr>         <tr class=\"alt-row\">             <td>2</td>             <td>Overview of consumer theory</td>             <td>&nbsp;</td>             <td>&nbsp;</td>         </tr>         <tr class=\"row\">             <td>3</td>             <td>Discrete choice analysis I</td>             <td>[S] Chapter 2</td>             <td>[M] Chapter 1; [C] Chapter 2</td>         </tr>         <tr class=\"alt-row\">             <td>4</td>             <td>Discrete choice analysis II</td>             <td>[S] Chapter 2</td>             <td>[M] Chapter 1; [C] Chapter 2</td>         </tr>         <tr class=\"row\">             <td>5</td>             <td>Travel demand modeling</td>             <td><a href=\"http://www.amazon.com/exec/obidos/ASIN/0072423323/ref=nosim/mitopencourse-20\"><img border=\"0\" align=\"absMiddle\" src=\"/images/a_logo_17.gif\" alt=\"Buy at Amazon\" /></a> Meyer, Michael, and Eric Miller. <em>Urban Transportation Planning</em>. New York, NY: McGraw-Hill, 2000. ISBN: 9780072423327. (Read chapter 5.4)</td>             <td>[C] Chapter 4</td>         </tr>         <tr class=\"alt-row\">             <td>6</td>             <td>Freight demand</td>             <td><p>[C] Chapter 4.6</p></td>             <td>[C] Chapter 4</td>         </tr>         <tr class=\"row\">             <td colspan=\"4\"><strong>Public transportation</strong></td>         </tr>         <tr class=\"alt-row\">             <td>7</td>             <td>Organizational models</td>             <td>Rye, T., and Nigel H. M. Wilson. &quot;The Urban Bus Situation in the UK: Recent Developments and a Case Study of Edinburgh.&quot; Paper presented at TRAIL Seminar on Competition, Public Transport and Service Innovations, March 2002, TU Delft, The Netherlands.</td>             <td>&nbsp;</td>         </tr>         <tr class=\"row\">             <td>8</td>             <td>Path choice models</td>             <td>Guo, Zhan, and Nigel H. M. Wilson. &quot;Assessment of the Transfer Penalty for Transit Trips: A GIS-Based Disaggregate Modeling Approach.&quot; <em>Transportation Research Record</em> 1872 (2004): 10-18.</td>             <td>&nbsp;</td>         </tr>         <tr class=\"alt-row\">             <td colspan=\"4\"><strong>The firm and its costs</strong></td>         </tr>         <tr class=\"row\">             <td>9</td>             <td>Theory of the firm</td>             <td>&nbsp;</td>             <td>&nbsp;</td>         </tr>         <tr class=\"alt-row\">             <td>10</td>             <td>Transportation costs</td>             <td>[M] Chapter 3</td>             <td>&nbsp;</td>         </tr>         <tr class=\"row\">             <td>11</td>             <td>Midterm exam</td>             <td>&nbsp;</td>             <td>&nbsp;</td>         </tr>         <tr class=\"alt-row\">             <td colspan=\"4\"><strong>Pricing</strong></td>         </tr>         <tr class=\"row\">             <td>12</td>             <td>Pricing of transportation services: theory and practice I</td>             <td>[M] Chapter 4</td>             <td>&nbsp;</td>         </tr>         <tr class=\"alt-row\">             <td>13</td>             <td>Pricing of transportation services: theory and practice II</td>             <td>[S] Chapters 4.1.1, 4.2.1, 4.3, and 4.5</td>             <td>[M] Chapter 6</td>         </tr>         <tr class=\"row\">             <td colspan=\"4\"><strong>The maritime and port sector</strong></td>         </tr>         <tr class=\"alt-row\">             <td>14</td>             <td><p>Analysis of the maritime and port sector I and II</p>             <p>Guest lectures: Hilde Meersman and Eddy Van de Voorde, Department of Transport and Regional Economics, University of Antwerp</p></td>             <td><a href=\"http://www.amazon.com/exec/obidos/ASIN/9282101681/ref=nosim/mitopencourse-20\"><img border=\"0\" align=\"absMiddle\" src=\"/images/a_logo_17.gif\" alt=\"Buy at Amazon\" /></a> Meersman, Hilde, and Eddy Van de Voorde. &quot;Dynamic Ports Within a Globalised World.&quot; In <em>17th International ITF/OECD Symposium on Transport Economics and Policy: Benefitting from Globalisation: Transport Sector Contribution and Policy Challenges</em>. Paris, France: OECD Publishing, 2008, pp. 321-346. ISBN: 9789282101681.</td>             <td>Heaver, T., Hilde Meersman, and Eddy Van de Voorde. &quot;Co-operation and Competition in Internal Container Transport.&quot; <em>Maritime Policy and Management</em> 28, no. 3 (2001): 293-305.</td>         </tr>         <tr class=\"row\">             <td>15</td>             <td><p>Analysis of the maritime and port sector I and II</p>             <p>Guest lectures: Hilde Meersman and Eddy Van de Voorde, Department of Transport and Regional Economics, University of Antwerp</p></td>             <td><p>Van de Voorde, Eddy. &quot;What Future the Maritime Sector?&quot; <em>Research in Transportation Economics</em> 13 (2005): 253-277.</p></td>             <td><p>Meersman, Hilde. &quot;Port Investments in an Uncertain Environment.&quot; <em>Research in Transportation Economics</em> 13, no. 1 (2005): 279-298.</p>             <p><a href=\"http://www.amazon.com/exec/obidos/ASIN/0080450954/ref=nosim/mitopencourse-20\"><img border=\"0\" align=\"absMiddle\" src=\"/images/a_logo_17.gif\" alt=\"Buy at Amazon\" /></a> Meersman, Hilde, and Eddy Van de Voorde. &quot;Competition and Ownership: Transferability of Experiences from Maritime Transport to Land-Based Modes.&quot; Chapter 15 in <em>Competition and Ownership in Land Passenger Transport: Selected papers from the 9th International Conference</em>. New York, NY: Elsevier Science, 2007. ISBN: 9780080450957.</p></td>         </tr>         <tr class=\"alt-row\">             <td colspan=\"4\"><strong>Revenue forecasting and management</strong></td>         </tr>         <tr class=\"row\">             <td>16</td>             <td>Transportation revenue forecasting: theory and models</td>             <td><p>Bowman, J. L., Gopinath, D., and Moshe Ben-Akiva. &quot;Estimating the Probability Distribution of a Travel Demand Forecast.&quot; Working Paper, Department of Civil and Environmental Engineering, Massachusetts Institute of Technology, 2002.</p>             <p>Lam, T. C., and Kenneth Small. &quot;The Value of Time and Reliability: Measurement from a Value Pricing Experiment.&quot; <em>Transportation Research Part E</em> 37, no. 3 (2001): 231-251.</p></td>             <td><p>Ben-Akiva, M., D. Bolduc, and M. Bradley. &quot;Estimation of Travel Choice Models with Randomly Distributed Value of Time.&quot; <em>Transportation Research Record</em> 1413 (1993): 88-97.</p>             <p>Gopinath, D. A., and Moshe Ben-Akiva. &quot;Estimation of Randomly Distributed Value of Time.&quot; Working Paper, Department of Civil and Environmental Engineering, Massachusetts Institute of Technology, 1997.</p>             <p>Kriger, David, Suzette Shiu, and Sasha Naylor. &quot;National Cooperative Highway Research Program Synthesis 364: Estimating Toll Road Demand and Revenue.&quot; Washington, DC: Transportation Research Board, 2006. (<img alt=\"This resource may not render correctly in a screen reader.\" src=\"/images/inacessible.gif\" /><a href=\"http://onlinepubs.trb.org/onlinepubs/nchrp/nchrp_syn_364.pdf\">PDF</a>)</p></td>         </tr>         <tr class=\"alt-row\">             <td>17</td>             <td><p>Airline revenue management I: flight leg and network models</p>             <p>Guest lecture: Peter Belobaba, MIT International Center for Air Transportation (MIT ICAT)</p></td>             <td><p>Smith, Barry, et al. &quot;Yield Management at American Airlines.&quot; <em>Interfaces</em> 22, no. 1 (1992): 8-31.</p>             <p>Barnhart, Cynthia, et al. &quot;Applications of Operations Research in the Air Transport Industry.&quot; <em>Transportation Science</em> 37, no. 4 (2003): 368-391.</p></td>             <td>&nbsp;</td>         </tr>         <tr class=\"row\">             <td>18</td>             <td><p>Airline revenue management II: impact of fare simplification on revenue management (RM) models</p>             <p>Guest lecture: Peter Belobaba, MIT ICAT</p></td>             <td>Boyd, E. Andrew, and Royce Kallesen. &quot;The Science of Revenue Management when Passengers Purchase the Lowest Available Fare.&quot; <em>Journal of Revenue and Pricing Management</em> 3, no. 2 (2004): 171-177.</td>             <td>&nbsp;</td>         </tr>         <tr class=\"alt-row\">             <td colspan=\"4\"><strong>Finance, regulation, and competition</strong></td>         </tr>         <tr class=\"row\">             <td>19</td>             <td><p>Project finance I</p>             <p>Guest lecture: Jon Bottom, Steer Davies Gleave</p></td>             <td>Wachs, Martin. &quot;<a href=\"http://www.brookings.edu/research/reports/2003/04/transportation-wachs\">Improving Efficiency and Equity in Transportation Finance</a>.&quot; Washington, DC: The Brookings Institution, 2003.</td>             <td>&nbsp;</td>         </tr>         <tr class=\"alt-row\">             <td>20</td>             <td><p>Project finance II</p>             <p>Guest lecture: Jon Bottom, Steer Davies Gleave</p></td>             <td>&nbsp;</td>             <td>&nbsp;</td>         </tr>         <tr class=\"row\">             <td>21</td>             <td><p>Project finance III</p>             <p>Regulation of transportation industries</p>             <p>Guest lectures: Jon Bottom, Steer Davies Gleave</p></td>             <td>[S] Chapters 6.2-6.4</td>             <td><p>[M] Chapters 14-15</p>             <p>Rye, T., and Nigel H. M. Wilson. &quot;The Urban Bus Situation in the UK: Recent Developments and a Case Study of Edinburgh.&quot; Paper presented at TRAIL Seminar on Competition, Public Transport and Service Innovations, March 2002, TU Delft, The Netherlands.</p></td>         </tr>         <tr class=\"alt-row\">             <td colspan=\"4\"><strong>Project evaluation and programming</strong></td>         </tr>         <tr class=\"row\">             <td>22</td>             <td><p>Project evaluation and programming I</p>             <p>Guest lecture: Lance Neumann, Cambridge Systematics, Inc.</p></td>             <td><p>[S] Chapter 5.2-3</p>             <p>&quot;Surface Transportation: Many Factors Affect Investment Decisions.&quot; Washington, DC: U.S. General Accounting Office, 2004. (<img alt=\"This resource may not render correctly in a screen reader.\" src=\"/images/inacessible.gif\" /><a href=\"http://www.gao.gov/new.items/d04744.pdf\">PDF</a>)</p></td>             <td>&nbsp;</td>         </tr>         <tr class=\"alt-row\">             <td>23</td>             <td><p>Project evaluation and programming II</p>             <p>Guest lecture: Lance Neumann, Cambridge Systematics, Inc.</p></td>             <td>[C] Chapters 10.1, 10.2.1-2, and 10.3.1-3</td>             <td>&nbsp;</td>         </tr>         <tr class=\"row\">             <td colspan=\"4\"><strong>Developing countries</strong></td>         </tr>         <tr class=\"alt-row\">             <td>24</td>             <td><p>Developing country urban mobility: the sustainable development imperative</p>             <p>Guest lecture: Chris Zegras, MIT Department of Urban Studies and Planning</p></td>             <td><a href=\"http://www.amazon.com/exec/obidos/ASIN/0821351486/ref=nosim/mitopencourse-20\"><img border=\"0\" align=\"absMiddle\" src=\"/images/a_logo_17.gif\" alt=\"Buy at Amazon\" /></a> &quot;Cities on the Move: A World Bank Urban Transport Strategy Review.&quot; Washington, DC: World Bank Publications, 2002, pp. 5-77. ISBN: 9780821351482. (<img alt=\"This resource may not render correctly in a screen reader.\" src=\"/images/inacessible.gif\" /><a href=\"http://siteresources.worldbank.org/INTURBANTRANSPORT/Resources/cities_on_the_move.pdf\">PDF</a>)</td>             <td>&nbsp;</td>         </tr>         <tr class=\"row\">             <td>25</td>             <td>Mobility demand in developing countries: some examples</td>             <td>Srinivasan, Karthik K., P. V. Lakshmi Bhargav, Gitakrishnan Ramadurai, Vidhya Muthuram, and Sumeeta Srinivasan. &quot;Determinants of Changes in Mobility and Travel Patterns in Developing Countries: Case Study of Chennai, India.&quot; <em>Transportation Research Record</em> 2038 (2008): 42-52.</td>             <td>&nbsp;</td>         </tr>         <tr class=\"alt-row\">             <td colspan=\"4\"><strong>Intelligent transportation systems, conclusion</strong></td>         </tr>         <tr class=\"row\">             <td>26</td>             <td>Intelligent transportation systems and the impact of traveler information; emerging themes in transportation economics and policy</td>             <td><p>[S] Chapter 7</p>             <p>Murphy, Sean. &quot;<a href=\"http://www.boston.com/news/traffic/bigdig/articles/2008/11/16/big_dig_pushes_bottlenecks_outward/\">Big Dig Pushes Bottlenecks Outward.</a>&quot; <em>Boston Globe</em>, November 16, 2008.</p></td>             <td>&nbsp;</td>         </tr>     </tbody> </table></div> <p>&nbsp;</p> <h2 class=\"subhead\">Additional Background Readings in Microeconomics, Statistics, and Econometrics</h2> <h3 class=\"subsubhead\">Microeconomics</h3> <p><a href=\"http://www.amazon.com/exec/obidos/ASIN/0324421621/ref=nosim/mitopencourse-20\"><img border=\"0\" align=\"absMiddle\" src=\"/images/a_logo_17.gif\" alt=\"Buy at Amazon\" /></a> Nicholson, Walter, and Christopher Snyder. <em>Microeconomic Theory: Basic Principles and Extensions</em>. 10th ed. New York, NY: South-Western College Publishing, 2007. ISBN: 9780324421620. Read Parts I, II, and IV.</p> <h3 class=\"subsubhead\">Probability and Statistics</h3> <p><a href=\"http://www.amazon.com/exec/obidos/ASIN/0131867938/ref=nosim/mitopencourse-20\"><img border=\"0\" align=\"absMiddle\" src=\"/images/a_logo_17.gif\" alt=\"Buy at Amazon\" /></a> Larsen, Richard, and Morris Marx. <em>An Introduction to Mathematical Statistics and its Applications</em>. 4th ed. Upper Saddle River, NJ: Prentice Hall, 2005. ISBN: 9780131867932. Read Chapters 1-6 and 11.</p> <p><a href=\"http://www.amazon.com/exec/obidos/ASIN/B001TICGJ0/ref=nosim/mitopencourse-20\"><img border=\"0\" align=\"absMiddle\" src=\"/images/a_logo_17.gif\" alt=\"Buy at Amazon\" /></a> DeGroot, Morris, and Mark Schervish. <em>Probability and Statistics</em>. 3rd ed. Boston, MA: Addison Wesley, 2006. ISBN: 9781428813809.</p> <h3 class=\"subsubhead\">Econometrics</h3> <p><a href=\"http://www.amazon.com/exec/obidos/ASIN/0079132928/ref=nosim/mitopencourse-20\"><img border=\"0\" align=\"absMiddle\" src=\"/images/a_logo_17.gif\" alt=\"Buy at Amazon\" /></a> Pindyck, Robert, and Daniel Rubinfeld. <em>Econometric Models and Economic Forecasts</em>. 4th ed. New York, NY: McGraw-Hill, 1997. ISBN: 9780079132925.</p> <p><a href=\"http://www.amazon.com/exec/obidos/ASIN/0130661899/ref=nosim/mitopencourse-20\"><img border=\"0\" align=\"absMiddle\" src=\"/images/a_logo_17.gif\" alt=\"Buy at Amazon\" /></a> Greene, William. <em>Econometric Analysis</em>. 5th ed. Upper Saddle River, NJ: Prentice Hall, 2002. ISBN: 9780130661890. Read Chapters 1, 2, and 6.</p>",
+      "type": "CourseSection",
+      "title": "Readings",
+      "short_url": "readings",
+      "parent_uid": "1d932ff61b3bc48988de1780971e96d0",
+      "description": "This section provides information on the three primary textbooks for the course and the schedule of readings."
+    },
+    {
+      "uid": "94c094b7b01d868ef11282cef13859cc",
+      "url": "/courses/civil-and-environmental-engineering/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/lecture-notes",
+      "text": "<p>Selected lectures are available below. All guest lectures are courtesy of the person named, and are used with permission.</p> <div class=\"maintabletemplate\"><table class=\"tablewidth75\" summary=\"See table caption for summary.\"> <caption class=\"invisible\">Lecture notes files.</caption> <thead> <tr> <th scope=\"col\">LEC&nbsp;#</th> <th scope=\"col\">TOPICS</th> <th scope=\"col\">FILES</th> </tr> </thead> <tbody> <tr class=\"row\"> <td colspan=\"3\"><strong>Introduction</strong></td> </tr> <tr class=\"alt-row\"> <td>1</td> <td>Introduction</td> <td>(<a href=\"./resolveuid/12e51b7ca0fb18891c74d21d5f7b475f\">PDF</a>)</td> </tr> <tr class=\"row\"> <td colspan=\"3\"><strong>Demand</strong></td> </tr> <tr class=\"alt-row\"> <td>2</td> <td>Overview of consumer theory</td> <td>(<a href=\"./resolveuid/0da5d80892d0497c15107f296bfa3a75\">PDF</a>)</td> </tr> <tr class=\"row\"> <td>3</td> <td>Discrete choice analysis I</td> <td>(<a href=\"./resolveuid/9eadd4cccfa491680a5c5bb4233f78ab\">PDF</a>)</td> </tr> <tr class=\"alt-row\"> <td>4</td> <td>Discrete choice analysis II</td> <td>(<a href=\"./resolveuid/1fe5a6531216e44dbe94543535a1ddd3\">PDF</a>)</td> </tr> <tr class=\"row\"> <td>5</td> <td>Travel demand modeling</td> <td>(<a href=\"./resolveuid/a73e9a7cb5edbbd0d0b955ca172c0856\">PDF</a>)</td> </tr> <tr class=\"alt-row\"> <td>6</td> <td>Freight demand</td> <td>(<a href=\"./resolveuid/7c29839f902550fa6800c37f31943bec\">PDF</a>)</td> </tr> <tr class=\"row\"> <td colspan=\"3\"><strong>Public transportation</strong></td> </tr> <tr class=\"alt-row\"> <td>7</td> <td><p>Organizational models</p> <p>(Courtesy of John Attanucci. Used with permission.)</p></td> <td>(<a href=\"./resolveuid/c5ad55d9fbbac5fefca9cf035d9a47a2\">PDF</a>)</td> </tr> <tr class=\"row\"> <td>8</td> <td><p>Path choice models</p> <p>(Courtesy of John Attanucci and Nigel Wilson. Used with permission.)</p></td> <td>(<a href=\"./resolveuid/5cb4b68ba2862c05be088455242112f4\">PDF</a>)</td> </tr> <tr class=\"alt-row\"> <td colspan=\"3\"><strong>The firm and its costs</strong></td> </tr> <tr class=\"row\"> <td>9</td> <td>Theory of the firm</td> <td>(<a href=\"./resolveuid/f85bad821869fc927af7c2c078f78c01\">PDF</a>)</td> </tr> <tr class=\"alt-row\"> <td>10</td> <td>Transportation costs</td> <td>(<a href=\"./resolveuid/811d2e2f5bb724df2e3e46ff0c2da6b8\">PDF</a>)</td> </tr> <tr class=\"row\"> <td>11</td> <td>Midterm exam</td> <td>&nbsp;</td> </tr> <tr class=\"alt-row\"> <td colspan=\"3\"><strong>Pricing</strong></td> </tr> <tr class=\"row\"> <td>12</td> <td>Pricing of transportation services: theory and practice I</td> <td>(<a href=\"./resolveuid/e7bd11d71c997467d994e11e0e7081a6\">PDF</a>)</td> </tr> <tr class=\"alt-row\"> <td>13</td> <td>Pricing of transportation services: theory and practice II</td> <td>(<a href=\"./resolveuid/1f95d3f5478db83751911b5617967db4\">PDF</a>)</td> </tr> <tr class=\"row\"> <td colspan=\"3\"><strong>The maritime and port sector</strong></td> </tr> <tr class=\"alt-row\"> <td>14-15</td> <td><p>Analysis of the maritime and port sector I and II</p> <p>Guest lectures: Hilde Meersman and Eddy Van de Voorde, Department of Transport and Regional Economics, University of Antwerp</p></td> <td>&nbsp;</td> </tr> <tr class=\"row\"> <td colspan=\"3\"><strong>Revenue forecasting and management</strong></td> </tr> <tr class=\"alt-row\"> <td>16</td> <td>Transportation revenue forecasting: theory and models</td> <td>(<a href=\"./resolveuid/f4fa5794738819bdbc0ae42508120f21\">PDF</a>)</td> </tr> <tr class=\"row\"> <td>17</td> <td><p>Airline revenue management I: flight leg and network models</p> <p>Guest lecture: Peter Belobaba, MIT International Center for Air Transportation (MIT ICAT)</p></td> <td>(<a href=\"./resolveuid/0fc64f08e8343d2c4b0f2c27bc13690d\">PDF</a>)</td> </tr> <tr class=\"alt-row\"> <td>18</td> <td><p>Airline revenue management II: impact of fare simplification on revenue management (RM) models</p> <p>Guest lecture: Peter Belobaba, MIT ICAT</p></td> <td>(<a href=\"./resolveuid/973ee77cd644ca7685647313cf892e2d\">PDF</a>)</td> </tr> <tr class=\"row\"> <td colspan=\"3\"><strong>Finance, regulation, and competition</strong></td> </tr> <tr class=\"alt-row\"> <td>19</td> <td><p>Project finance I</p> <p>Guest lecture: Jon Bottom, CRA International</p></td> <td>(<a href=\"./resolveuid/cde9ee13763469fdce84edc34d217868\">PDF</a>)</td> </tr> <tr class=\"row\"> <td>20</td> <td><p>Project finance II</p> <p>Guest lecture: Jon Bottom, CRA International</p></td> <td>(<a href=\"./resolveuid/a23d95b1e9f7973f03fe6da9f7493fe5\">PDF</a>)</td> </tr> <tr class=\"alt-row\"> <td>21</td> <td><p>Project finance III</p> <p>Regulation of transportation industries</p> <p>Guest lectures: Jon Bottom, CRA International</p></td> <td>(<a href=\"./resolveuid/afc26475c9b2e882dd28af69353a22b0\">PDF</a>)</td> </tr> <tr class=\"row\"> <td colspan=\"3\"><strong>Project evaluation and programming</strong></td> </tr> <tr class=\"alt-row\"> <td>22</td> <td><p>Project evaluation and programming I</p> <p>Guest lecture: Lance Neumann, Cambridge Systematics, Inc.</p></td> <td>(<a href=\"./resolveuid/6062840fe01898c55f7ae9ffc7759aa1\">PDF</a>)</td> </tr> <tr class=\"row\"> <td>23</td> <td><p>Project evaluation and programming II</p> <p>Guest lecture: Lance Neumann, Cambridge Systematics, Inc.</p></td> <td>(<a href=\"./resolveuid/04a48a5b9358e4429602c65b26b60a0d\">PDF</a>)</td> </tr> <tr class=\"alt-row\"> <td colspan=\"3\"><strong>Developing countries</strong></td> </tr> <tr class=\"row\"> <td>24</td> <td><p>Developing country urban mobility: the sustainable development imperative</p> <p>Guest lecture: Chris Zegras, MIT Department of Urban Studies and Planning</p></td> <td>(<a href=\"./resolveuid/53ff1622c95cb74b9a8965aae40c1fd5\">PDF</a>)</td> </tr> <tr class=\"alt-row\"> <td>25</td> <td>Mobility demand in developing countries: some examples</td> <td>&nbsp;</td> </tr> <tr class=\"row\"> <td colspan=\"3\"><strong>Intelligent transportation systems, conclusion</strong></td> </tr> <tr class=\"alt-row\"> <td>26</td> <td>Intelligent transportation systems and the impact of traveler information; emerging themes in transportation economics and policy</td> <td>(<a href=\"./resolveuid/246ff23f8bd157759243b3fc55c631f0\">PDF</a>)</td> </tr> </tbody> </table></div>",
+      "type": "CourseSection",
+      "title": "Lecture Notes",
+      "short_url": "lecture-notes",
+      "parent_uid": "1d932ff61b3bc48988de1780971e96d0",
+      "description": "This section provides the schedule of lecture topics for the course along with notes from selected lectures."
+    },
+    {
+      "uid": "9fcb7d0d8cfef1b02f1d7a69f645464a",
+      "url": "/courses/civil-and-environmental-engineering/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/assignments",
+      "text": "<div class=\"maintabletemplate\"><table summary=\"See table caption for summary.\" class=\"tablewidth50\"> <caption class=\"invisible\">Assignment files.</caption> <thead> <tr> <th scope=\"col\">ASSIGNMENTS</th> <th scope=\"col\">FILES</th> </tr> </thead> <tbody> <tr class=\"row\"> <td>Homework 1</td> <td>(<a href=\"./resolveuid/275a107cdaf86cfd6b3d59f3534e094a\">PDF</a>)</td> </tr> <tr class=\"alt-row\"> <td>Homework 2</td> <td>(<a href=\"./resolveuid/39821eb3270ba800d6ef4ce81cf8d5f1\">PDF</a>)</td> </tr> <tr class=\"row\"> <td>Homework 3</td> <td>(<a href=\"./resolveuid/ac17cea8e12cae7dc70adb967e73b108\">PDF</a>)</td> </tr> <tr class=\"alt-row\"> <td>Homework 4</td> <td>(<a href=\"./resolveuid/1e8c891662e8ad3942e773db1e2f4eba\">PDF</a>)</td> </tr> <tr class=\"row\"> <td><p>Homework 5</p> <p>Worksheet</p></td> <td><p>(<a href=\"./resolveuid/32a3224d398faa84cfa7564042be9a3d\">PDF</a>)</p> <p>(<a href=\"/courses/civil-and-environmental-engineering/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/assignments/hw_5.xls\">XLS</a>)</p></td> </tr> </tbody> </table></div>",
+      "type": "CourseSection",
+      "title": "Assignments",
+      "short_url": "assignments",
+      "parent_uid": "1d932ff61b3bc48988de1780971e96d0",
+      "description": "This section provides the assignments for the course."
+    },
+    {
+      "uid": "d07e7cf7851bfa90969467a43405b492",
+      "url": "/courses/civil-and-environmental-engineering/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/exams",
+      "text": "<div class=\"maintabletemplate\"><table summary=\"See table caption for summary.\" class=\"tablewidth50\"> <caption class=\"invisible\">Exam files.</caption> <thead> <tr> <th scope=\"col\">EXAMS</th> <th scope=\"col\">FILES</th> </tr> </thead> <tbody> <tr class=\"row\"> <td colspan=\"2\"><strong>2008 exams</strong></td> </tr> <tr class=\"alt-row\"> <td><p>Midterm</p> <p>Final</p></td> <td><p>(<a href=\"./resolveuid/75f5aad063e2a28e118804b9aee48034\">PDF</a>)</p> <p>(<a href=\"./resolveuid/08be108a6f0362fa3ef5409203c1956f\">PDF</a>)</p></td> </tr> <tr class=\"row\"> <td colspan=\"2\"><strong>Exam study materials</strong></td> </tr> <tr class=\"alt-row\"> <td><p>Sample pricing problems</p> <p>2007 final exam</p></td> <td><p>(<a href=\"./resolveuid/b9e57716c8c766dc2ccc0f76e2fefc1a\">PDF</a>)</p> <p>(<a href=\"./resolveuid/b234e9a9f28f9f114e4a2df9ccf04722\">PDF</a>)</p></td> </tr> </tbody> </table></div>",
+      "type": "CourseSection",
+      "title": "Exams",
+      "short_url": "exams",
+      "parent_uid": "1d932ff61b3bc48988de1780971e96d0",
+      "description": "This section provides the midterm and final exams for the course along with exam study materials."
+    },
+    {
+      "uid": "e460baef721a7257a0de80f0c25ed876",
+      "url": "/courses/civil-and-environmental-engineering/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/download-course-materials",
+      "text": "<div id=\"download_inner_main\"><p class=\"ptext\">This package contains the same content as the online version of the course.</p><p class=\"ptext\">For help downloading and using course materials, read our <a href=\"http://ocw.mit.edu/help/faq-technology/\">frequently asked questions</a>.</p></div>",
+      "type": "DownloadSection",
+      "title": "Download Course Materials",
+      "short_url": "download-course-materials",
+      "parent_uid": "1d932ff61b3bc48988de1780971e96d0",
+      "description": "This section offers users the option to download complete .ZIP files as a free service to assist in offline and low-bandwidth use."
+    }
+  ],
+  "from_semester": "Fall",
+  "course_features": [
+    {
+      "ocw_feature": "Assignments",
+      "ocw_speciality": "",
+      "ocw_subfeature": "problem sets (no solutions)",
+      "ocw_feature_url": "/courses/civil-and-environmental-engineering/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/assignments",
+      "ocw_feature_notes": ""
+    },
+    {
+      "ocw_feature": "Exams",
+      "ocw_speciality": "",
+      "ocw_subfeature": "No solutions",
+      "ocw_feature_url": "/courses/civil-and-environmental-engineering/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/exams",
+      "ocw_feature_notes": ""
+    },
+    {
+      "ocw_feature": "Lecture notes",
+      "ocw_speciality": "",
+      "ocw_subfeature": "Selected",
+      "ocw_feature_url": "/courses/civil-and-environmental-engineering/1-201j-transportation-systems-analysis-demand-and-economics-fall-2008/lecture-notes",
+      "ocw_feature_notes": ""
+    }
+  ],
+  "department_number": "1",
+  "image_description": "This course discusses urban transportation issues, such as the importance of passenger waiting time. (Image by caravinagre on Flickr.)",
+  "course_collections": [
+    {
+      "ocw_feature": "Social Science",
+      "ocw_speciality": "Transportation Planning",
+      "ocw_subfeature": "Urban Studies",
+      "ocw_feature_url": "",
+      "ocw_feature_notes": ""
+    },
+    {
+      "ocw_feature": "Engineering",
+      "ocw_speciality": "Transportation Engineering",
+      "ocw_subfeature": "Civil Engineering",
+      "ocw_feature_url": "",
+      "ocw_feature_notes": ""
+    },
+    {
+      "ocw_feature": "Social Science",
+      "ocw_speciality": "Financial Economics",
+      "ocw_subfeature": "Economics",
+      "ocw_feature_url": "",
+      "ocw_feature_notes": ""
+    }
+  ],
+  "extra_course_number": [
+    {
+      "sort_as_col": "11.545",
+      "linked_course_type_col": "Graduate",
+      "linked_course_number_col": "11.545J"
+    },
+    {
+      "sort_as_col": "ESD.210",
+      "linked_course_type_col": "Graduate",
+      "linked_course_number_col": "ESD.210J"
+    }
+  ],
+  "course_foreign_files": [],
+  "master_course_number": "201J",
+  "course_embedded_media": {}
+}

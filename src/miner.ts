@@ -70,9 +70,18 @@ const makeCourseDocs = async (courseInfo: object): Promise<Array<object>> => {
     };
   }, {});
 
-  const documents = courseInfo['course_files'].filter(fileInfo => fileInfo['file_type'] === 'application/pdf' && fileInfo['title'] != null && fileInfo['title'] != '3play pdf file' && fileInfo['title'].indexOf(' ') == -1 && fileInfo['parent_uid'] in coursePagesIndex).map(fileInfo => {
-    return Doc.fileToDoc(fileInfo, courseInfo, coursePagesIndex);
-  });
+  const documents = courseInfo['course_files']
+    .filter(fileInfo =>
+      fileInfo['file_type'] === 'application/pdf' &&
+      fileInfo['parent_uid'] in coursePagesIndex &&
+      fileInfo['title'] != null &&
+      fileInfo['title'] != '3play pdf file' && (
+        (fileInfo['file_location'] != null) ||
+        (fileInfo['title'].indexOf(' ') == -1 && fileInfo['title'].slice(-4) == '.pdf')
+      )
+    ).map(fileInfo => {
+      return Doc.fileToDoc(fileInfo, courseInfo, coursePagesIndex);
+    });
 
   const videos = await Promise.all(Object.values(courseInfo['course_embedded_media']).filter(mediaInfo => mediaInfo['embedded_media'].some(sourceInfo => sourceInfo['id'] === 'Video-YouTube-Stream')).map(async mediaInfo => {
     const youtubeSource = mediaInfo['embedded_media'].find(sourceInfo => sourceInfo['id'] === 'Video-YouTube-Stream');

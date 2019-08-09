@@ -32,14 +32,18 @@ export function fileToDoc(fileInfo, courseInfo, coursePageIndex) {
 
   }
 
-  const fileName = fileInfo['title'];
-  const fileDescription = fileInfo['description'];
-
   const parent = coursePageIndex[fileInfo['parent_uid']];
   const parentUrl = parent['url'];
+
+  let originalFileUrl, fileName;
+  if (fileInfo['file_location'] != null) fileName = fileInfo['file_location'].slice(fileInfo['file_location'].indexOf(fileInfo['uid'])).replace(fileInfo['uid'].concat('_'), '');
+  else fileName = fileInfo['title'];
+  originalFileUrl = `https://ocw.mit.edu${parentUrl}/${fileName}`;
+
+  const fileTitle = fileInfo["title"];
+  const fileDescription = fileInfo['description'];
   const learningResourceType = parent['short_url'];
 
-  const originalFileUrl = `https://ocw.mit.edu${parentUrl}/${fileName}`;
 
   return {
     "@id": originalFileUrl,
@@ -47,7 +51,7 @@ export function fileToDoc(fileInfo, courseInfo, coursePageIndex) {
       "Resource",
       "Document"
     ],
-    name: fileName,
+    name: fileTitle,
     description: fileDescription,
     keywords: courseKeywords,
     license: mitLicense,
