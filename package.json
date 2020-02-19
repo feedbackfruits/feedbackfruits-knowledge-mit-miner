@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "ava": "^2.2.0",
-    "codecov": "^3.5.0",
+    "codecov": "^3.6.5",
     "mock-aws-s3": "github:feedbackfruits/mock-aws-s3#master",
     "nodemon": "^1.19.1",
     "nyc": "^14.1.1",
