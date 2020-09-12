@@ -23,7 +23,7 @@
     "dotenv": "^8.0.0",
     "feedbackfruits-knowledge-engine": "github:feedbackfruits/feedbackfruits-knowledge-engine#^1.4.5",
     "memux": "^0.4.5",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "p-queue": "^6.1.0",
     "rxjs": "^6.5.2",
     "striptags": "^3.1.1",
